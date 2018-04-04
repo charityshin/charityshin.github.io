@@ -1,2 +1,2 @@
 # charityshin.github.io
-Portfolio Project
+UI/UX Portfolio 
