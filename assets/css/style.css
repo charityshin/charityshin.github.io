@@ -933,8 +933,8 @@ Home Section style
     background: url(../images/lake.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 220px;
-    padding-bottom: 220px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     width:100%;
 }
 .home_text h1{
@@ -1047,7 +1047,7 @@ PageHome Section style
 }
 .mouse-scroll {
     position: absolute;
-    left:48%;
+    left: 42%;
     display: inline-block;
     line-height: 18px;
     font-size: 13px;
@@ -1086,7 +1086,7 @@ PageHome Section style
 }
 .mouse-scroll .mouse-message {
     float: left;
-    margin: -200px 0 0 7px;
+    margin: -200px 0 0 0px;
     padding: 0;
     -webkit-animation: scroll-ani 4s linear infinite;
     -moz-animation: scroll-ani 4s linear infinite;
