@@ -933,8 +933,8 @@ Home Section style
     background: url(../images/lake.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     width:100%;
 }
 .home_text h1{
@@ -1047,14 +1047,14 @@ PageHome Section style
 }
 .mouse-scroll {
     position: absolute;
-    left: 48%;
+    left: 46%;
     display: inline-block;
     line-height: 18px;
     font-size: 13px;
     font-weight: normal;
     color: #FFF;
     letter-spacing: 2px;
-    bottom:5%;
+    bottom: 3%;
     text-decoration: none;
     overflow: hidden;
 }
@@ -1063,7 +1063,7 @@ PageHome Section style
     display: block;
     width: 46px;
     height: 73px;
-    margin: 0 auto 20px;
+    margin: 0 0px 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -1085,13 +1085,13 @@ PageHome Section style
     animation: scroll-ani 4s linear infinite;
 }
 .mouse-scroll .mouse-message {
-    float: left;
+    float: relative;
     margin: -200px 0 0 0px;
-    padding: 0;
+    padding: 0 -60;
     -webkit-animation: scroll-ani 4s linear infinite;
     -moz-animation: scroll-ani 4s linear infinite;
     animation: scroll-ani 4s linear infinite;
-    color:#fff;
+    color: #fff;
 }
 .mouse-scroll:hover .mouse-message {
     margin-top: 0;
