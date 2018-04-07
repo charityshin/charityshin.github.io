@@ -239,7 +239,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color:#1a1a1a;
     margin-bottom: 10px;
 }
@@ -757,6 +757,7 @@ textarea::-ms-input-placeholder{
 }
 /*heading title all area*/
 .head_title{
+    padding-left: 20px;
     padding-bottom: 2.143rem;
     overflow: hidden;
 }
@@ -775,12 +776,13 @@ textarea::-ms-input-placeholder{
     letter-spacing: 8px;
     border-bottom: 5px solid #fed4d6;
     display: inline-block;
+
 }
 .head_title h2 strong{
     font-weight: 700;
 }
 .head_title h3{
-    font-family: Montserrat;
+    font-family: 'Oswald';
     font-weight: 500;
     font-size:1.75rem;
 
@@ -1178,7 +1180,7 @@ Featured section style
 }
 .main_about h3{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
+    font-weight: 200;
     font-size:16px;
     line-height: 30px;
     letter-spacing: 1px;
@@ -1194,18 +1196,21 @@ Featured section style
     display: inline-block;
 }
 .main_about h5{
-    font-family: 'Engagement', cursive;
-    font-size:40px;
-    line-height: 45px;
-    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:19px;
+    line-height: 20px;
+    font-weight: 1000;
+    letter-spacing: 2px;
     color: #3b3f53; 
 }
 .main_about h6{
-    font-family: 'Engagement', cursive;
-    font-size:40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size:13px;
     line-height: 20px;
-    letter-spacing: 2px;
-    color: #3b3f53; 
+    letter-spacing: 1px;
+    border-bottom: 4px solid #ffffff;
+    display: inline-block;
 }
 .profile{
     padding: 0px 0px 0px 0px;
@@ -1398,7 +1403,7 @@ tems Section style
 
 .main-portfolio .button {
     display: inline-block;
-    padding: 0.5rem 1.5rem;
+    padding: .5rem .45rem;
     margin-bottom: 10px;
     background: transparent;
     border: 1.5px solid #3b3f53;
@@ -1422,15 +1427,15 @@ tems Section style
 }
 
 .main-portfolio .button:hover {
+    color: #fff;
     background-color: #3b3f53;
     border: 1.5px solid #3b3f53;
-    color: #ffƒf;
 }
 
 .main-portfolio .button:active,
 .main-portfolio .button.is-checked {
     background-color: #3b3f53;
-    border: 1px solid #3b3f53;
+    border: 1.5px solid #3b3f53;
 }
 
 .main-portfolio .button.is-checked {
@@ -1445,7 +1450,7 @@ tems Section style
 
 .main-portfolio .grid {
     margin: 0;
-    padding:0;
+    padding-left: 12px;
 }
 
 /* clear fix */
@@ -1458,9 +1463,9 @@ tems Section style
 /* ---- .grid-item ---- */
 
 .main-portfolio .grid-item {
-    position: relative;
-    margin: 7px;
-    width:374px;
+    position: relative; 
+    margin: 16px;
+    width:520px;
     overflow: hidden;
 }
 
@@ -1476,16 +1481,16 @@ tems Section style
 
 }
 
-.main-portfolio .grid-item:hover img{
-    transform: scale(1.1) ;
+.main-portfolio .grid-item img{
+    transform: scale(1.0) ;
 }
 
-.main-portfolio .grid-item:hover .grid_hover_area{
+.main-portfolio .grid-item .grid_hover_area{
     opacity: 1;
 }
 
 .main-portfolio .grid_hover_area {
-    background-color: rgba(7,8,10,0.50);
+    background-color: rgba(57,51,91, 0.70);
     height: 100%;
     opacity: 0;
     position: absolute;
