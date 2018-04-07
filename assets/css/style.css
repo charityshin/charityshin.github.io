@@ -109,7 +109,7 @@ section { overflow: hidden; }
 .text-muted{}
 .text-primary{color: #00a885 !important;;}
 .text-basic{color:#353535 !important;;}
-.text-mega{color:#00a885 !important;;}
+.text-mega{color: #3b3f53 !important;;}
 .text-white{color:#fff !important;;}
 .text-black{color:#16293b !important;}
 .text-pink{
@@ -386,46 +386,59 @@ Button
 .btn{
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
-    font-size:14px;
+    font-family: 'Oswald';
+    font-size:13px;
     font-weight: 600;
     border:1px solid;
     padding: 1rem 4rem;
+  
 }
 .btn-primary{
-    color: #333;
-    background-color: #fff;
-    border:1px solid;
-    border-color: #fff;
+    color: #ffffff;
+    background-color: transparent;
+    border: 3px solid;
+    letter-spacing: 2px;
+    border-color: #ffffff;
+    padding: .5rem 2rem;
+
 
 }
 .btn-primary:hover{
     background-color: #eee;
     border-color: #eee;
     color:#fd9a9f;
+    padding: .5rem 2rem;
 }
 
 .btn-default{
-    color: #7b8895;
-    background-color: transparent;
-    border:1px solid;
-    border-color: #7b8895;
+    color: #ffffff;
+    background-color: #fed4d6;
+    border-radius:40px;
+    border-width: 2px;
+    letter-spacing: 3px;
+    font-size:14px;
+    font-weight: 2000;
+    border-color: #fed4d6;
+     padding: .8rem 3rem;
 }
 .btn-default:hover{
-    color: #fff;
-    background-color: #fed4d6;
+    color: #fed4d6;
+    background-color: transparent;
     border-color: #fed4d6;
 }
 .btn-footer{
-    color: #fff;
-    background-color: #fff;
-    border:1px solid;
-    border-color: #fff;
+    color: #fed4d6;
+    background-color: transparent;
+    border:1.5px solid;
+    border-color: #fed4d6;
+    padding: .7rem 2.5rem;
 }
 .btn-footer:hover{
     color: #fff;
     background-color: #fed4d6;
     border-color: #fed4d6;
 }
+
 
 
 
@@ -1562,4 +1575,6 @@ hr {
    text-decoration: none; 
    background-color: none;
 }
+
+
 
