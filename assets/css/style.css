@@ -132,9 +132,12 @@ section { overflow: hidden; }
 .bg-black{background-color: #222222;}
 .bg-white{background-color: #fff;}
 .bg-footer{background-color: #3b3f53 ;}
-.bg-ombre{background: linear-gradient(0deg, rgba(253,212,216,1) 0%, rgba(255,255,255,1) 100%);}
-.bg-sky{background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(186,184,208,1) 32%, rgba(55,47,62,0.8370535714285714) 100%);}
-.bg-pink{background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(181,179,204,1) 100%);}
+.bg-ombre{background: rgb(253,212,216);
+    background: linear-gradient(0deg, rgba(253,212,216,1) 0%, rgba(255,255,255,1) 100%);}
+.bg-sky{background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(186,184,208,1) 32%, rgba(55,47,62,0.8370535714285714) 100%);}
+.bg-pink{background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(181,179,204,1) 100%);}
 
 img {
     -moz-user-select: none;
