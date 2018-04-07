@@ -132,7 +132,8 @@ jQuery( document ).ready( function ( $ ) {
 $( function () {
     // Initialize Isotope
     var $notes = $( ".grid" ).isotope( {
-        itemSelector: ".grid-item"
+        itemSelector: ".grid-item",
+        filter: '.alkaline'
     } );
 
     // On filter button click
