@@ -428,19 +428,19 @@ Button
 
 .btn-portfolio{
     color: #fff;
-    background-color: rgb(0,0,0,0.4);
-    border-radius:50px;
+    background-color: #3B3F53;
     border-width: 2px;
-    letter-spacing: 4px;
-    font-size:20px;
+    letter-spacing: 5px;
+    font-size: 22px;
     font-weight: 2000;
-    border-color: #fff;
-    padding: 6rem 12rem;
+    border-color: #3B3F53;
+    width: 89px;
+    height: 50px;
 }
 .btn-portfolio:hover{
-    color: #fff;
-    background-color: rgb(255,255,255,0.7);
-    border-color: #fff;
+    color: #3B3F53;
+    background-color: transparent;
+    border-color: #3B3F53;
     }
 .btn-footer{
     color: #fed4d6;
@@ -1465,6 +1465,7 @@ tems Section style
 
 .main-portfolio .grid {
     margin: 0;
+    padding-left: 10px;
 }
 
 /* clear fix */
@@ -1479,7 +1480,7 @@ tems Section style
 .main-portfolio .grid-item {
     position: relative; 
     margin: 16px;
-    width:550px;
+    width:540px;
     overflow: hidden;
 }
 
