@@ -351,6 +351,7 @@ ul{
 
 
 
+
 .no-padding {
     padding: 0 !important;
     margin:0 !important;
@@ -601,11 +602,19 @@ p-0{
 }
 
 .p-l-15{
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 .p-r-15{
-    padding-right: 15px;
+    padding-right: 30px;
+}
+
+.p-l-30{
+    padding-left: 45px;
+}
+
+.p-r-30{
+    padding-right: 45px;
 }
 
 .p-top-10 {
@@ -776,7 +785,7 @@ textarea::-ms-input-placeholder{
 /*heading title all area*/
 .head_title{
     padding-left: 20px;
-    padding-bottom: 2.143rem;
+    padding-bottom: 1.143rem;
     overflow: hidden;
 }
 .head_title h1{
@@ -987,7 +996,7 @@ Home Section style
     background-size: cover;
     position: relative;
     padding-top: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     width:100%;
 }
 .home_text h1{
@@ -1020,7 +1029,34 @@ PageHome Section style
 ==================*/
 
 .pagehome{
-    background: url(../images/lake.jpg) no-repeat top center;
+    background: url(../images/b2.jpg) no-repeat top center;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width:100%;
+}
+
+.pagehome2{
+    background: url(../images/guilteabanner.jpg) no-repeat top center;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    width:100%;
+}
+
+.pagehome3{
+    background: url(../images/spotifybanner.png) no-repeat top center;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    width:100%;
+}
+
+.pagehome4{
+    background: url(../images/poketimebanner.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
     padding-top: 100px;
@@ -1215,8 +1251,8 @@ Featured section style
 }
 .main_about h5{
     font-family: 'Oswald', sans-serif;
-    font-size:20px;
-    line-height: 16px;
+    font-size:21px;
+    line-height: 18px;
     letter-spacing: 2.5px;
     font-weight: 800;
     color: #3b3f53; 
@@ -1234,7 +1270,59 @@ Featured section style
     padding: 0px 0px 0px 0px;
     background:url(assets/images/profile.png) no-repeat;
 }
+
+.container2 {
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+    overflow: hidden;
 }
+
+.cloud {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all 0.6s;
+}
+
+.cloudlay {
+  position: absolute;
+  border-radius: 35px;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  background-color: #3b3f53;
+  -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+}
+
+
+
+.container2:hover .cloudlay {
+  opacity: 1;
+}
+
+.describe {
+  color: #fed4d6;
+  font-size: 17px;
+  font-weight: 40px;
+  position: absolute;
+  width:300px;
+  letter-spacing: 2px;
+  line-height;
+  font-family: 'Source Sans Pro';
+  top: 50%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+
 /*
 Featured section style
 ========================*/
@@ -1636,3 +1724,9 @@ a.anchor {
     top: -100px;
     visibility: hidden;
 }
+
+::selection {
+    color: #fed4d6; 
+    background: #3b3f53;
+}
+
