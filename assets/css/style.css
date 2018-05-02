@@ -82,6 +82,10 @@ section { overflow: hidden; }
     padding-bottom: 70px;
 }
 
+.roomy-65 {
+    padding-top: 40px;
+}
+
 .roomy-60 {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -99,7 +103,7 @@ section { overflow: hidden; }
 
 .roomy-30 {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 
@@ -432,7 +436,7 @@ Button
 .btn-portfolio{
     color: #fff;
     background-color: #3B3F53;
-    border-width: 2px;
+    border-width: 2.5px;
     letter-spacing: 5px;
     font-size: 22px;
     font-weight: 2000;
@@ -784,8 +788,8 @@ textarea::-ms-input-placeholder{
 }
 /*heading title all area*/
 .head_title{
-    padding-left: 20px;
-    padding-bottom: 1.143rem;
+    padding-left:.0001rem;
+    padding-bottom: .5rem;
     overflow: hidden;
 }
 .head_title h1{
@@ -793,15 +797,15 @@ textarea::-ms-input-placeholder{
     font-weight: 400;
     letter-spacing: 5px;
     font-size:3.5rem;
-    color:#16293b;
+    color:#3b3f53;
 }
 .head_title h2{
-    font-weight: 400;
-    font-size: 2rem;
+    font-weight: 600;
+    font-size: 2.2rem;
     font-family: 'Oswald';
-    color: #16293b;
-    letter-spacing: 8px;
-    border-bottom: 5px solid #fed4d6;
+    color: #3b3f53;
+    letter-spacing: 6px;
+    border-bottom: 4px solid #fed4d6;
     display: inline-block;
 
 }
@@ -971,7 +975,7 @@ Nav Menu style
 ==================*/
 
 .navbar-brand {
-    padding: 15px 30px;
+    padding: 10px 30px;
 }
 .navbar-header {
     padding: 15px 30px;
@@ -995,26 +999,25 @@ Home Section style
     background: url(../images/lake.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 30px;
+    padding-top: 110px;
+    padding-bottom: 40px;
     width:100%;
 }
 .home_text h1{
     position: relative;
-    font-size:16px;
+    font-size: .9rem;
     font-family: 'Source Sans Pro';
-    line-height: 30px;
+    line-height: 1.5px;
     font-weight: 1000;
-    letter-spacing: 3.4px;
-    line-height: 20px;
+    letter-spacing: 2px;
 
 }
 .home_text h3{
-    font-size:75px;
+    font-size:3.3rem;
     font-family: 'Oswald';
     font-weight: 1000;
-    letter-spacing: 10px;
-    line-height: 76px;
+    letter-spacing: 6px;
+    line-height: 55px;
 }
 
 .home_text h4{
@@ -1251,9 +1254,9 @@ Featured section style
 }
 .main_about h5{
     font-family: 'Oswald', sans-serif;
-    font-size:21px;
-    line-height: 18px;
-    letter-spacing: 2.5px;
+    font-size: 1.15rem;
+    line-height: 16px;
+    letter-spacing: 2.2px;
     font-weight: 800;
     color: #3b3f53; 
 }
@@ -1503,6 +1506,7 @@ tems Section style
 ==========================================================================*/
 .portfolio{
     overflow: hidden;
+
 }
 
 /* ---- button ---- */
@@ -1555,8 +1559,8 @@ tems Section style
 /* ---- isotope ---- */
 
 .main-portfolio .grid {
-    margin: 0;
-    padding-left: 10px;
+    margin: -.09rem;
+    grid-auto-columns: auto;
 }
 
 /* clear fix */
@@ -1570,9 +1574,10 @@ tems Section style
 
 .main-portfolio .grid-item {
     position: relative; 
-    margin: 16px;
-    width:540px;
+    margin: 1.3rem;
     overflow: hidden;
+    width: 33rem;
+
 }
 
 /*.grid-item > * {
@@ -1581,9 +1586,10 @@ tems Section style
 }*/
 
 .main-portfolio .grid-item img{
-    width:100%;
-    height: 100%;
     transition: all 0.6s;
+    width: 32rem;
+    height: auto;
+    text-align: center;
 
 }
 
