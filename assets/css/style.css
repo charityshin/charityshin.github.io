@@ -1005,18 +1005,17 @@ Home Section style
 }
 .home_text h1{
     position: relative;
-    font-size: .9rem;
+    font-size: .8rem;
     font-family: 'Source Sans Pro';
-    line-height: 1.5rem;
-    letter-spacing: 2px;
+    line-height: 10px;
+    letter-spacing: 1.4px;
 
 }
 .home_text h3{
-    font-size:3.3rem;
+    font-size:3.2rem;
     font-family: 'Oswald';
     font-weight: 1000;
-    letter-spacing: 6px;
-    line-height: 55px;
+    letter-spacing: 5.5px;
 }
 
 .home_text h4{
