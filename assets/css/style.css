@@ -1513,15 +1513,15 @@ tems Section style
 
 .main-portfolio .button {
     display: inline-block;
-    padding: .4rem .35rem;
+    padding: .32rem .27rem;
     margin-bottom: 10px;
     background: transparent;
-    border: 1.5px solid #3b3f53;
+    border: 1.4px solid #3b3f53;
     border-radius: 4px;
     color: #3b3f53;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     outline:none;
 }
@@ -1559,7 +1559,7 @@ tems Section style
 /* ---- isotope ---- */
 
 .main-portfolio .grid {
-    margin: .5rem;
+    margin: .3rem;
     grid-auto-columns: auto;
 }
 
