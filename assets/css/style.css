@@ -788,7 +788,7 @@ textarea::-ms-input-placeholder{
 }
 /*heading title all area*/
 .head_title{
-    padding-left:.0001rem;
+    padding-left:.5rem;
     padding-bottom: .5rem;
     overflow: hidden;
 }
@@ -999,7 +999,7 @@ Home Section style
     background: url(../images/lake.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 110px;
+    padding-top: 115px;
     padding-bottom: 40px;
     width:100%;
 }
@@ -1256,7 +1256,7 @@ Featured section style
     font-family: 'Oswald', sans-serif;
     font-size: 1.15rem;
     line-height: 16px;
-    letter-spacing: 2.2px;
+    letter-spacing: 2px;
     font-weight: 800;
     color: #3b3f53; 
 }
@@ -1559,7 +1559,7 @@ tems Section style
 /* ---- isotope ---- */
 
 .main-portfolio .grid {
-    margin: -.09rem;
+    margin: .5rem;
     grid-auto-columns: auto;
 }
 
