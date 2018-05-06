@@ -104,12 +104,15 @@ section { overflow: hidden; }
     padding-bottom: 25px;
 }
 
+.roomy-10 {
+    padding-top: 7px;
+}
 
 /*text color, find fddc57*/
 
 .text-muted{}
 .text-primary{color: #00a885 !important;;}
-.text-basic{color:#353535 !important;;}
+.text-basic{color:#5d5d60 !important;;}
 .text-mega{color: #3b3f53 !important;;}
 .text-white{color:#fff !important;;}
 .text-black{color:#16293b !important;}
@@ -608,7 +611,7 @@ p-0{
 }
 
 .p-r-15{
-    padding-right: 30px;
+    padding-right: 15px;
 }
 
 .p-l-30{
@@ -620,7 +623,7 @@ p-0{
 }
 
 .p-top-10 {
-    padding-top: 10px;
+    padding-top: 80px;
 }
 .p-top-20 {
     padding-top: 1.33rem;
@@ -786,8 +789,8 @@ textarea::-ms-input-placeholder{
 }
 /*heading title all area*/
 .head_title{
-    padding-left:.5rem;
-    padding-bottom: .5rem;
+    padding-left: .5rem;
+    padding-bottom: 1.3rem;
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
 }
@@ -801,7 +804,8 @@ textarea::-ms-input-placeholder{
 }
 .head_title h2{
     font-weight: 600;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
     font-family: 'Oswald';
     color: #3b3f53;
     letter-spacing: 6px;
@@ -1009,18 +1013,18 @@ Home Section style
 }
 .home_text h1{
     position: relative;
-    font-size: .8rem;
+    font-size: 1rem;
     font-family: 'Source Sans Pro';
-    line-height: 10px;
-    letter-spacing: 1.4px;
+    line-height: 1.4rem;
+    letter-spacing: .15rem;
 
 }
 .home_text h3{
-    font-size:3.2rem;
+    font-size: 4.5rem;
     font-family: 'Oswald';
-    font-weight: 1000;
-    line-height: 3rem;
-    letter-spacing: 5.5px;
+    font-weight: 800;
+    line-height: 5rem;
+    letter-spacing: .4rem;
 }
 
 .home_text h4{
@@ -1072,12 +1076,11 @@ PageHome Section style
 
 .pagehome_text h1{
     position: relative;
-    font-size:16px;
+    font-size: 1.1rem;
     font-family: 'Source Sans Pro';
-    line-height: 30px;
-    font-weight: 1000;
-    letter-spacing: 3.4px;
-    line-height: 20px;
+    line-height: 1.4rem;
+    letter-spacing: .2rem;
+
 
 }
 .pagehome_text h2{
@@ -1091,11 +1094,11 @@ PageHome Section style
 }
 
 .pagehome_text h3{
-    font-size:75px;
+    font-size: 4.5rem;
     font-family: 'Oswald';
-    font-weight: 700;
-    letter-spacing: 5px;
-    line-height: 76px;
+    font-weight: 800;
+    line-height: 5rem;
+    letter-spacing: .4rem;
 }
 
 .pagehome_text h4{
@@ -1242,26 +1245,21 @@ Featured section style
 }
 .main_about h3{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 200;
-    font-size:16px;
-    line-height: 25px;
-    letter-spacing: .8px;
-    color:#3B3F53;
-    speak: none;
-font-style: normal;
-font-weight: normal;
-font-variant: normal;
-text-transform: none;
--webkit-font-smoothing: antialiased;
+    font-weight:500;
+    font-size:1.04rem;
+    line-height: 1.8rem;
+    letter-spacing: .05rem;
+    color:#3b3f53;
+    -webkit-font-smoothing: antialiased;
 }
 .main_about h4{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-size:16px;
-    line-height: 30px;
-    letter-spacing: 1px;
-    border-bottom: 5px solid #ffffff;
-    display: inline-block;
+    font-weight:500;
+    font-size:1.04rem;
+    line-height: 1.45rem;
+    letter-spacing: .05rem;
+    color:#3b3f53;
+    -webkit-font-smoothing: antialiased;
 }
 .main_about h5{
     font-family: 'Oswald', sans-serif;
@@ -1274,12 +1272,11 @@ text-transform: none;
 }
 .main_about h6{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-size:13px;
-    line-height: 20px;
-    letter-spacing: 1px;
-    border-bottom: 4px solid #ffffff;
-    display: inline-block;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    letter-spacing: .05rem;
+    color:#3b3f53;
+    -webkit-font-smoothing: antialiased;
 }
 .profile{
     padding: 0px 0px 0px 0px;
