@@ -113,9 +113,9 @@ section { overflow: hidden; }
 .text-muted{}
 .text-primary{color: #00a885 !important;;}
 .text-basic{color:#5d5d60 !important;;}
-.text-mega{color: #3b3f53 !important;;}
+.text-mega{color: #b0b4c7 !important;;}
 .text-white{color:#fff !important;;}
-.text-black{color:#16293b !important;}
+.text-black{color:#3a3e52 !important;}
 .text-pink{
     color:#fed4d6;
 }
@@ -135,7 +135,7 @@ section { overflow: hidden; }
 .bg-grey{background-color: #fcfbf7;}
 .bg-black{background-color: #222222;}
 .bg-white{background-color: #fff;}
-.bg-footer{background-color: #3b3f53 ;}
+.bg-footer{background-color: #3a3e52;}
 .bg-ombre{background: rgb(253,212,216);
     background: linear-gradient(0deg, rgba(253,212,216,1) 0%, rgba(255,255,255,1) 100%);}
 .bg-sky{background: rgb(255,255,255);
@@ -281,7 +281,7 @@ h2 span,
 h3 span{
     text-decoration: none;
     border-bottom: 3px solid #fed4d6;
-    color: #3b3f53;
+    color: #3a3e52;
     },
 h4 span,
 h5 span,
@@ -436,19 +436,19 @@ Button
 
 .btn-portfolio{
     color: #fff;
-    background-color: #3B3F53;
+    background-color: #3a3e52;
     border-width: 2.5px;
     letter-spacing: 5px;
     font-size: 22px;
     font-weight: 2000;
-    border-color: #3B3F53;
+    border-color: #3a3e52;
     width: 89px;
     height: 50px;
 }
 .btn-portfolio:hover{
-    color: #3B3F53;
+    color: #3a3e52;
     background-color: transparent;
-    border-color: #3B3F53;
+    border-color: #3a3e52;
     }
 .btn-footer{
     color: #fed4d6;
@@ -608,6 +608,10 @@ p-0{
 
 .p-l-15{
     padding-left: 30px;
+}
+
+.p-l-5{
+    padding-left: 10px;
 }
 
 .p-r-15{
@@ -799,7 +803,7 @@ textarea::-ms-input-placeholder{
     font-weight: 400;
     letter-spacing: 5px;
     font-size:3.5rem;
-    color:#3b3f53;
+    color:#3a3e52;
     -webkit-font-smoothing: antialiased;
 }
 .head_title h2{
@@ -807,7 +811,7 @@ textarea::-ms-input-placeholder{
     font-size: 1.8rem;
     line-height: 2.5rem;
     font-family: 'Oswald';
-    color: #3b3f53;
+    color: #3a3e52;
     letter-spacing: 6px;
     border-bottom: 4px solid #fed4d6;
     display: inline-block;
@@ -1228,28 +1232,30 @@ Featured section style
 
 }
 .main_about h1{
-    font-family: 'Engagement', cursive;
-    font-size:65px;
-    line-height: 70px;
-    font-weight: 300;
-    color: #3b3f53;
-
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:550;
+    font-size:1.08rem;
+    line-height: 1.2rem;
+    letter-spacing: .03rem;
+    color:#3a3e52;
+    -webkit-font-smoothing: antialiased;
 }
 .main_about h2{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size:30px;
-    line-height:40px;
-    letter-spacing: 1.5px;
-    color:#3B3F53;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    color: #3a3e52; 
     -webkit-font-smoothing: antialiased;
 }
 .main_about h3{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight:500;
     font-size:1.04rem;
-    line-height: 1.8rem;
+    line-height: 1.7rem;
     letter-spacing: .05rem;
-    color:#3b3f53;
+    color:#3a3e52;
     -webkit-font-smoothing: antialiased;
 }
 .main_about h4{
@@ -1258,7 +1264,7 @@ Featured section style
     font-size:1.04rem;
     line-height: 1.45rem;
     letter-spacing: .05rem;
-    color:#3b3f53;
+    color:#3a3e52;
     -webkit-font-smoothing: antialiased;
 }
 .main_about h5{
@@ -1267,16 +1273,20 @@ Featured section style
     line-height: 16px;
     letter-spacing: 2px;
     font-weight: 700;
-    color: #3b3f53; 
+    color: #3a3e52; 
     -webkit-font-smoothing: antialiased;
 }
 .main_about h6{
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    letter-spacing: 1px;
-    color:#fff;
-    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fed4d6;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 300;
+    width:100%;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .profile{
     padding: 0px 0px 0px 0px;
@@ -1306,7 +1316,7 @@ Featured section style
   width: 100%;
   opacity: 0;
   transition: opacity .3s ease-in-out;
-  background-color: #3b3f53;
+  background-color: #3a3e52;
   -webkit-transition: opacity .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out;
     -o-transition: opacity .3s ease-in-out;
@@ -1525,9 +1535,9 @@ tems Section style
     padding: .32rem .27rem;
     margin-bottom: 10px;
     background: transparent;
-    border: 1.6px solid #3b3f53;
+    border: 1.6px solid #3a3e52;
     border-radius: 4px;
-    color: #3b3f53;
+    color: #3a3e52;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
     font-size: 12px;
@@ -1547,14 +1557,14 @@ tems Section style
 
 .main-portfolio .button:hover {
     color: #fff;
-    background-color: #3b3f53;
-    border: 1.6px solid #3b3f53;
+    background-color: #3a3e52;
+    border: 1.6px solid #3a3e52;
 }
 
 .main-portfolio .button:active,
 .main-portfolio .button.is-checked {
-    background-color: #3b3f53;
-    border: 1.6px solid #3b3f53;
+    background-color: #3a3e52;
+    border: 1.6px solid #3a3e52;
 }
 
 .main-portfolio .button.is-checked {
@@ -1742,5 +1752,5 @@ a.anchor {
 
 ::selection {
     color: #fed4d6; 
-    background: #3b3f53;
+    background: #3a3e52;
 }
