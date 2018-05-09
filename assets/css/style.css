@@ -344,6 +344,16 @@ ul{
     list-style:none;
 }
 
+ol{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:500;
+    font-size:.7rem;
+    line-height: 1rem;
+    letter-spacing: .05rem;
+    color:#3a3e52;
+    -webkit-font-smoothing: antialiased;
+}
+
 .overlay {
     background-color: rgba(41, 39, 34, 0.55);
     width: 100%;
@@ -829,6 +839,16 @@ textarea::-ms-input-placeholder{
     -webkit-font-smoothing: antialiased;
 
 }
+.head_title h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:500;
+    font-size:.7rem;
+    line-height: 1rem;
+    letter-spacing: .05rem;
+    color:#3a3e52;
+    -webkit-font-smoothing: antialiased;
+
+}
 .head_title h5{
     font-weight: 400;
     font-size:1.125rem;
@@ -1032,10 +1052,13 @@ Home Section style
 }
 
 .home_text h4{
-    font-size:12px;
-    font-family: 'Source Sans Pro', serif;
-    line-height: 20px;
-    letter-spacing: 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:500;
+    font-size:.7rem;
+    line-height: 1rem;
+    letter-spacing: .05rem;
+    color:#3a3e52;
+    -webkit-font-smoothing: antialiased;
 }
 
 /*
@@ -1235,7 +1258,7 @@ Featured section style
     font-family: 'Source Sans Pro', sans-serif;
     font-weight:550;
     font-size:1.08rem;
-    line-height: 1.2rem;
+    line-height: .8rem;
     letter-spacing: .03rem;
     color:#3a3e52;
     -webkit-font-smoothing: antialiased;
@@ -1253,7 +1276,7 @@ Featured section style
     font-family: 'Source Sans Pro', sans-serif;
     font-weight:500;
     font-size:1.04rem;
-    line-height: 1.7rem;
+    line-height: 1.8rem;
     letter-spacing: .05rem;
     color:#3a3e52;
     -webkit-font-smoothing: antialiased;
@@ -1268,15 +1291,24 @@ Featured section style
     -webkit-font-smoothing: antialiased;
 }
 .main_about h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:550;
+    font-size:1.08rem;
+    line-height: 1.4rem;
+    letter-spacing: .03rem;
+    color:#3a3e52;
+    -webkit-font-smoothing: antialiased;
+}
+.main_about h6{
     font-family: 'Oswald', sans-serif;
-    font-size: 1.15rem;
-    line-height: 16px;
-    letter-spacing: 2px;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    letter-spacing: .105rem;
     font-weight: 700;
     color: #3a3e52; 
     -webkit-font-smoothing: antialiased;
 }
-.main_about h6{
+.main_about p{
     font-size: 12px;
     line-height: 16px;
     color: #fed4d6;
@@ -1285,7 +1317,6 @@ Featured section style
     margin-left: 0;
     margin-right: 0;
     font-weight: 300;
-    width:100%;
     font-family: 'Source Sans Pro', sans-serif;
 }
 .profile{
