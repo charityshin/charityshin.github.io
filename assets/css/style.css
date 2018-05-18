@@ -344,6 +344,15 @@ ul{
     list-style:none;
 }
 
+ul.b{
+    list-style-type: square;
+
+}
+
+ul.b span {
+    display:block;
+}
+
 ol{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight:500;
