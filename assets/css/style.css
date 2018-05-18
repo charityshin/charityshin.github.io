@@ -643,8 +643,8 @@ p-0{
     padding-top: 1.33rem;
 }
 
-.p-bottom-20 {
-    padding-bottom: 1.33rem;
+.p-20 {
+    padding-bottom: .6rem;
 }
 
 .p-top-30 {
@@ -1440,7 +1440,7 @@ Featured section style
 }
 
 .service_slid .service_slid_item{
-    background-color: #3a3e52;
+    background-color: #fff;
     align-items: center;
     width: 100%;
     height: auto;
@@ -1459,16 +1459,16 @@ Featured section style
 .choose_mac .slick-arrow,
 .service_slid .slick-arrow{
     position: absolute;
-    top:40%;
+    top:50%;
     z-index: 1;
     border-radius: 50%;
     background-color: transparent;
-    border:1px solid #3a3e52;
     width:25px;
     height: 25px;
     line-height: 25px;
     text-align: center;
-    font-size:10px;
+    font-size:1.5rem;
+    font-weight: 1000;
     cursor:pointer;
 }
 .choose_mac .nextprevleft,
@@ -1637,7 +1637,7 @@ tems Section style
     position: relative; 
     margin: 1.3rem;
     overflow: hidden;
-    width: 33rem;
+    width: 29.3rem;
 
 }
 
