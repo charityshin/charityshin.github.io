@@ -111,7 +111,7 @@ section { overflow: hidden; }
 /*text color, find fddc57*/
 
 .text-muted{}
-.text-primary{color: #00a885 !important;;}
+.text-primary{color: #292D3A !important;;}
 .text-basic{color:#5d5d60 !important;;}
 .text-mega{color: #b0b4c7 !important;;}
 .text-white{color:#fff !important;;}
@@ -130,8 +130,11 @@ section { overflow: hidden; }
     background-color: #f2f2f2;
 }
 .bg-primary{background-color: #00a885;}
-.bg-finence{background-color:#13A0B2;}
-.bg-mega{background-color:#1b1b1b;}
+.bg-finence{background-color:#5d5d60;}
+.bg-mega{
+    background-color: transparent;
+    border-top: 2px solid #3a3e52;
+    border-bottom: 2px solid #3a3e52;}
 .bg-grey{background-color: #fcfbf7;}
 .bg-black{background-color: #222222;}
 .bg-white{background-color: #fff;}
@@ -356,9 +359,9 @@ ul.b span {
 ol{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight:500;
-    font-size:.7rem;
-    line-height: 1rem;
-    letter-spacing: .05rem;
+    font-size:.8rem;
+    line-height: 1.15rem;
+    letter-spacing: .03rem;
     color:#3a3e52;
     -webkit-font-smoothing: antialiased;
 }
@@ -436,6 +439,25 @@ Button
     padding: .5rem 2rem;
 }
 
+.btn-project{
+    color: #ffffff;
+    background-color: #3a3e52;
+    border: 3px solid;
+    letter-spacing: 2px;
+    border-color: #3a3e52;
+    padding: .5rem 1.5rem;
+    margin: 0.5rem 1.7rem 1rem 1rem;
+
+
+}
+.btn-project:hover{
+    background-color: transparent;
+    border-color: #3a3e52;
+    color:#3a3e52;
+    padding: .5rem 1.5rem;
+    margin: 0.5rem 1.7rem 1rem 1rem;
+}
+
 .btn-default{
     color: #ffffff;
     background-color: #fed4d6;
@@ -469,6 +491,7 @@ Button
     background-color: transparent;
     border-color: #3a3e52;
     }
+
 .btn-footer{
     color: #fed4d6;
     background-color: transparent;
@@ -648,8 +671,8 @@ p-0{
 .p-top-10 {
     padding-top: 80px;
 }
-.p-top-20 {
-    padding-top: 1.33rem;
+.p-10 {
+    padding-top: .6rem;
 }
 
 .p-20 {
@@ -1449,7 +1472,7 @@ Featured section style
 }
 
 .service_slid .service_slid_item{
-    background-color: #fff;
+    background-color: #292D3A;
     align-items: center;
     width: 100%;
     height: auto;
@@ -1774,9 +1797,8 @@ tems Section style
 
 hr {
     display: block;
-    width: 1px;
+    height: 1px;
     border: 0;
-    size: 500;
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
