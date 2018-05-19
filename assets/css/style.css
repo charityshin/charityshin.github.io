@@ -1160,6 +1160,15 @@ PageHome Section style
     width:100%;
 }
 
+.pagehome7{
+    background: url(../images/hawaii.png) no-repeat top center;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    width:100%;
+}
+
 .pagehome_text h1{
     position: relative;
     font-size: 1.1rem;
