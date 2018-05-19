@@ -135,9 +135,18 @@ section { overflow: hidden; }
     background-color: transparent;
     border-top: 2px solid #3a3e52;
     border-bottom: 2px solid #3a3e52;}
-.bg-grey{background-color: #fcfbf7;}
+.bg-grey{
+    background-color: #fff;
+    border-radius:20px;
+    padding-top:5px;
+    margin-bottom: 10px;}
 .bg-black{background-color: #222222;}
-.bg-white{background-color: #fff;}
+.bg-white{
+    background-color: #fcfbf7;
+    border-radius:25px;
+    padding-top:8px;
+    margin-bottom: 10px;
+    margin-top: 5px;}
 .bg-footer{background-color: #3a3e52;}
 .bg-ombre{background: rgb(253,212,216);
     background: linear-gradient(0deg, rgba(253,212,216,1) 0%, rgba(255,255,255,1) 100%);}
@@ -1126,6 +1135,24 @@ PageHome Section style
 
 .pagehome4{
     background: url(../images/poketimebanner.jpg) no-repeat top center;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    width:100%;
+}
+
+.pagehome5{
+    background: url(../images/lake.jpg) no-repeat top center;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    width:100%;
+}
+
+.pagehome6{
+    background: url(../images/flight.png) no-repeat top center;
     background-size: cover;
     position: relative;
     padding-top: 100px;
