@@ -1072,8 +1072,8 @@ Home Section style
     background: url(../images/lake.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 115px;
-    padding-bottom: 40px;
+    padding-top: 13rem;
+    padding-bottom: 8rem;
     width:100%;
 }
 .home_text h1{
@@ -1102,6 +1102,23 @@ Home Section style
     -webkit-font-smoothing: antialiased;
 }
 
+.home_text h5{
+    font-size: 3.8rem;
+    font-family: 'Oswald';
+    font-weight: 800;
+    line-height: 5rem;
+    letter-spacing: .4rem;
+}
+
+.home_text h6{
+    position: relative;
+    font-size: .9rem;
+    font-family: 'Source Sans Pro';
+    line-height: 1.4rem;
+    letter-spacing: .15rem;
+
+}
+
 /*
 PageHome Section style
 ==================*/
@@ -1110,8 +1127,8 @@ PageHome Section style
     background: url(../images/b2.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 30px;
+    padding-top: 12.5rem;
+    padding-bottom: 9rem;
     width:100%;
 }
 
@@ -1119,8 +1136,8 @@ PageHome Section style
     background: url(../images/guilteabanner.png) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 12.5rem;
+    padding-bottom: 9rem;
     width:100%;
 }
 
@@ -1128,8 +1145,8 @@ PageHome Section style
     background: url(../images/spotifybanner.png) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 12.5rem;
+    padding-bottom: 9rem;
     width:100%;
 }
 
@@ -1137,8 +1154,8 @@ PageHome Section style
     background: url(../images/poketimebanner.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 12.5rem;
+    padding-bottom: 9rem;
     width:100%;
 }
 
@@ -1146,8 +1163,8 @@ PageHome Section style
     background: url(../images/lake.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 12.5rem;
+    padding-bottom: 9rem;
     width:100%;
 }
 
@@ -1155,8 +1172,8 @@ PageHome Section style
     background: url(../images/flight.png) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 12.5rem;
+    padding-bottom: 9rem;
     width:100%;
 }
 
@@ -1164,8 +1181,8 @@ PageHome Section style
     background: url(../images/hawaii.png) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 12.5rem;
+    padding-bottom: 9rem;
     width:100%;
 }
 
@@ -1326,7 +1343,7 @@ Featured section style
     font-family: 'Source Sans Pro', sans-serif;
     font-weight:550;
     font-size:1.08rem;
-    line-height: .8rem;
+    line-height: 1rem;
     letter-spacing: .03rem;
     color:#3a3e52;
     -webkit-font-smoothing: antialiased;
@@ -1353,7 +1370,7 @@ Featured section style
     font-family: 'Source Sans Pro', sans-serif;
     font-weight:500;
     font-size:1.04rem;
-    line-height: 1.45rem;
+    line-height: 1.6rem;
     letter-spacing: .05rem;
     color:#3a3e52;
     -webkit-font-smoothing: antialiased;
@@ -1362,7 +1379,7 @@ Featured section style
     font-family: 'Source Sans Pro', sans-serif;
     font-weight:550;
     font-size:1.08rem;
-    line-height: 1.4rem;
+    line-height: 1.5rem;
     letter-spacing: .03rem;
     color:#3a3e52;
     -webkit-font-smoothing: antialiased;
@@ -1370,7 +1387,7 @@ Featured section style
 .main_about h6{
     font-family: 'Oswald', sans-serif;
     font-size: 1.2rem;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
     letter-spacing: .105rem;
     font-weight: 700;
     color: #3a3e52; 
