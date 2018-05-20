@@ -130,7 +130,7 @@ section { overflow: hidden; }
     background-color: #f2f2f2;
 }
 .bg-primary{background-color: #00a885;}
-.bg-finence{background-color:#5d5d60;}
+.bg-finence{background-color:#D36E6E;}
 .bg-mega{
     background-color: transparent;
     border-top: 2px solid #3a3e52;
@@ -1548,7 +1548,7 @@ Featured section style
     z-index: 1;
     border-radius: 50%;
     background-color: transparent;
-    width:25px;
+    width:10px;
     height: 25px;
     line-height: 25px;
     text-align: center;
