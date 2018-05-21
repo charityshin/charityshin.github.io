@@ -1095,7 +1095,7 @@ Home Section style
     font-family: 'Oswald';
     font-weight: 800;
     line-height: 6rem;
-    letter-spacing: .6rem;
+    letter-spacing: .55rem;
     padding-bottom: 1.5rem;
 }
 
@@ -1119,10 +1119,10 @@ Home Section style
 
 .home_text h6{
     position: relative;
-    font-size: .9rem;
+    font-size: 1.1rem;
     font-family: 'Source Sans Pro';
-    line-height: 1.4rem;
-    letter-spacing: .15rem;
+    line-height: 2rem;
+    letter-spacing: .32rem;
 
 }
 
