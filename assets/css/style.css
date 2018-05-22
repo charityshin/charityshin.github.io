@@ -1556,20 +1556,20 @@ Featured section style
     border-radius: 50%;
     background-color: transparent;
     width:10px;
-    height: 25px;
-    line-height: 25px;
+    height: 30px;
+    line-height: 20px;
     text-align: center;
-    font-size:1.5rem;
+    font-size:2.5rem;
     font-weight: 1000;
     cursor:pointer;
 }
 .choose_mac .nextprevleft,
 .service_slid .nextprevleft{
-    left:5%;
+    left: 2.5%;
 }
 .choose_mac .nextprevright,
 .service_slid .nextprevright{
-    right:5%;
+    right: 9.5%;
 }
 
 
