@@ -1193,6 +1193,15 @@ PageHome Section style
     width:100%;
 }
 
+.pagehome8{
+    background: url(../images/lebanner.png) no-repeat top center;
+    background-size: cover;
+    position: relative;
+    padding-top: 15rem;
+    padding-bottom: 13rem;
+    width:100%;
+}
+
 .pagehome_text h1{
     position: relative;
     font-size: 1.1rem;
