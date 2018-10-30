@@ -101,35 +101,119 @@ Author URI: http://www.xpeedstudio.com
         display: none;
     }
 
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 12px;
+        width: 315px;
+        overflow: hidden;
+    }
+
 
 }
 
 
 
+/* For Grid */
+@media (max-width: 706px) {
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 10px;
+        width: 310px;
+        overflow: hidden;
+    }
 
+
+}
+
+@media (max-width: 688px) {
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 3px;
+        width: 308px;
+        overflow: hidden;
+    }
+
+@media (max-width: 656px) {
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 18px;
+        width: 550px;
+        overflow: hidden;
+    }
+
+@media (max-width: 585px) {
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 20px;
+        width: 500px;
+        overflow: hidden;
+    }    
+@media (max-width: 540px) {
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 10px;
+        width: 440px;
+        overflow: hidden;
+    }    
+
+}
 
 /* Landscape phones and smaller */
 @media (max-width: 479px) {
     html {
         font-size: 85%;
     }
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 15px;
+        width: 380px;
+        overflow: hidden;
+    }
 
+
+}
+
+
+
+
+
+@media (max-width: 418px) {
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 8px;
+        width: 350px;
+        overflow: hidden;
+    }
 
 
 }
 
+@media (max-width: 375px) {
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 8px;
+        width: 320px;
+        overflow: hidden;
+    }
 
+@media (max-width: 350px) {
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 5px;
+        width: 300px;
+        overflow: hidden;
+    }
 
-
-
-@media (max-width: 400px) {
-
-
-}
 
 @media (max-width: 320px) {
     html {
         font-size: 60.5%;
+    }
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 5px;
+        width: 290px;
+        overflow: hidden;
     }
 
 
