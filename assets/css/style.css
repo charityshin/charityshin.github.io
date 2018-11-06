@@ -64,6 +64,44 @@ section { overflow: hidden; }
 /*
     Spacing & Alignment 
 ------------------------------------------*/
+.roomy-grid {
+    margin-top: 90px;
+}
+@media screen and (max-width: 991px) {
+    .roomy-grid {
+         margin-top: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .roomy-grid {
+         margin-top: 35px;
+    }
+}
+@media screen and (max-width: 656px) {
+    .roomy-grid {
+         margin-top: 125px;
+    }
+}
+@media screen and (max-width: 585px) {
+    .roomy-grid {
+         margin-top: 110px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .roomy-grid {
+         margin-top: 80px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .roomy-grid {
+         margin-top: 65px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .roomy-grid {
+         margin-top: 40px;
+    }
+}
 
 .roomy-100 {
     padding-top: 100px;
@@ -440,18 +478,18 @@ Button
 .btn-primary{
     color: #ffffff;
     background-color: transparent;
-    border: 3px solid;
+    border: 2px solid;
     letter-spacing: 2px;
     border-color: #ffffff;
-    padding: .5rem 2rem;
+    padding: .7rem 2rem;
 
 
 }
 .btn-primary:hover{
-    background-color: #eee;
-    border-color: #eee;
+    background-color: #fff;
+    border-color: #fff;
     color:#fd9a9f;
-    padding: .5rem 2rem;
+    padding: .7rem 2rem;
 }
 
 .btn-project{
@@ -474,50 +512,47 @@ Button
 }
 
 .btn-default{
-    color: #ffffff;
-    background-color: #fed4d6;
-    border-radius:40px;
-    border-width: 2px;
+    color: #3a3e52;
+    background-color: transparent;
+    border-color: #3a3e52;
+    border: 2px solid;
+    padding: .7rem 2.5rem;
     letter-spacing: 3px;
     font-size:14px;
-    font-weight: 2000;
-    border-color: #fed4d6;
-     padding: .8rem 3rem;
+    
 }
 .btn-default:hover{
-    color: #fed4d6;
-    background-color: transparent;
-    border-color: #fed4d6;
+    color: #fff;
+    background-color: #3a3e52;
+    border-color: #3a3e52;
 }
 
 .btn-portfolio{
     color: #fff;
-    background-color: #3a3e52;
-    border-width: 2.5px;
-    letter-spacing: 5px;
-    font-size: 22px;
-    font-weight: 2000;
-    border-color: #3a3e52;
-    width: 89px;
-    height: 50px;
-}
-.btn-portfolio:hover{
-    color: #3a3e52;
-    background-color: transparent;
-    border-color: #3a3e52;
-    }
-
-.btn-footer{
-    color: #fed4d6;
     background-color: transparent;
     border:1.5px solid;
-    border-color: #fed4d6;
+    border-color: #fff;
+    font-size: 20px;
+    padding: .5rem 1.5rem;
+    margin: 0.5rem 1rem 1rem 1rem;
+}
+.btn-portfolio:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color:#fd9a9f;
+}
+
+.btn-footer{
+    color: #fff;
+    background-color: transparent;
+    border:1.5px solid;
+    border-color: #fff;
     padding: .7rem 2.5rem;
 }
 .btn-footer:hover{
-    color: #fff;
-    background-color: #fed4d6;
-    border-color: #fed4d6;
+    background-color: #fff;
+    border-color: #fff;
+    color:#fd9a9f;
 }
 
 
@@ -569,9 +604,11 @@ Extra height css
 .m-top-50 {
     margin-top: 50px;
 }
+
 .m-top-60 {
     margin-top: 60px;
 }
+
 .m-top-70 {
     margin-top: 70px;
 }
@@ -1675,7 +1712,7 @@ tems Section style
 
 .main-portfolio .button {
     display: inline-block;
-    padding: .32rem .27rem;
+    padding: .5rem 1.5rem;
     margin-bottom: 10px;
     background: transparent;
     border: 1.6px solid #3a3e52;
@@ -1717,12 +1754,11 @@ tems Section style
 
 
 
-
 /* ---- isotope ---- */
 
 .main-portfolio .grid {
-    margin: .3rem;
-    grid-auto-columns: auto;
+    margin: 0;
+    padding: 0;
 }
 
 /* clear fix */
@@ -1737,8 +1773,8 @@ tems Section style
 .main-portfolio .grid-item {
     position: relative; 
     margin: 1.3rem;
-    overflow: hidden;
     width: 29.3rem;
+    overflow: hidden;
 
 }
 
@@ -1748,22 +1784,22 @@ tems Section style
 }*/
 
 .main-portfolio .grid-item img{
+    width: 100%;
+    height: 100%;
     transition: all 0.6s;
-    width: 32rem;
-    height: auto;
-    text-align: center;
 
 }
 
-.main-portfolio .grid-item img{
-    transform: scale(1.0) ;
+.main-portfolio .grid-item: hover img{
+    transform: scale(1.1) ;
 }
 
-.main-portfolio .grid-item .grid_hover_area{
+.main-portfolio .grid-item:hover .grid_hover_area{
     opacity: 1;
 }
 
 .main-portfolio .grid_hover_area {
+    background-color: rgba(7,8,10,0.50);
     height: 100%;
     opacity: 0;
     position: absolute;
@@ -1781,8 +1817,14 @@ tems Section style
     padding:0.5rem 1rem;
 }
 
-
-
+@media screen and (max-width: 650px) {
+    #about-right hr {
+        display: block;
+    }
+    .main-portfolio .grid-item .grid_hover_area {
+        opacity: 1;
+    }
+}
 
 
 
