@@ -65,7 +65,7 @@ section { overflow: hidden; }
     Spacing & Alignment 
 ------------------------------------------*/
 .roomy-grid {
-    margin-top: 90px;
+    margin-top: 70px;
 }
 @media screen and (max-width: 991px) {
     .roomy-grid {
@@ -1799,7 +1799,7 @@ tems Section style
 }
 
 .main-portfolio .grid_hover_area {
-    background-color: rgba(7,8,10,0.50);
+    background-color: transparent;
     height: 100%;
     opacity: 0;
     position: absolute;
