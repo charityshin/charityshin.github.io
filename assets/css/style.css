@@ -32,7 +32,7 @@ body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-weight: 100;
+    font-weight: 500;
     width:100%;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -304,6 +304,7 @@ h6 {
     font-family: 'Source Sans Pro', sans-serif;
     color:#1a1a1a;
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
 h1 {
@@ -319,7 +320,7 @@ h3 {
     line-height: 2rem;
 }
 h4 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 2.2rem;
 }
 h5 {
@@ -530,7 +531,7 @@ Button
 .btn-portfolio{
     color: #fff;
     background-color: transparent;
-    border:1.5px solid;
+    border: 2px solid;
     border-color: #fff;
     font-size: 20px;
     padding: .5rem 1.5rem;
@@ -545,7 +546,7 @@ Button
 .btn-footer{
     color: #fff;
     background-color: transparent;
-    border:1.5px solid;
+    border: 2px solid;
     border-color: #fff;
     padding: .7rem 2.5rem;
 }
@@ -1123,6 +1124,7 @@ Home Section style
     position: relative;
     font-size: 1rem;
     font-family: 'Source Sans Pro';
+    font-weight:500;
     line-height: 1.4rem;
     letter-spacing: .15rem;
 
@@ -1130,7 +1132,7 @@ Home Section style
 .home_text h3{
     font-size: 5rem;
     font-family: 'Oswald';
-    font-weight: 800;
+    font-weight: 600;
     line-height: 6rem;
     letter-spacing: .55rem;
     padding-bottom: 1.5rem;
@@ -1138,7 +1140,7 @@ Home Section style
 
 .home_text h4{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight:500;
+    font-weight: 500;
     font-size:.7rem;
     line-height: 1rem;
     letter-spacing: .05rem;
@@ -1159,6 +1161,7 @@ Home Section style
     font-size: 1.1rem;
     font-family: 'Source Sans Pro';
     line-height: 2rem;
+    font-weight: 500;
     letter-spacing: .32rem;
 
 }
@@ -1244,6 +1247,7 @@ PageHome Section style
     font-size: 1.1rem;
     font-family: 'Source Sans Pro';
     line-height: 1.4rem;
+    font-weight: 500;
     letter-spacing: .2rem;
 
 
@@ -1270,6 +1274,7 @@ PageHome Section style
     font-size:12px;
     font-family: 'Source Sans Pro', serif;
     line-height: 20px;
+    font-weight: 500;
     letter-spacing: 2px;
 }
 
@@ -1394,7 +1399,7 @@ Featured section style
 }
 .main_about h1{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight:250;
+    font-weight: 500;
     font-size:1.08rem;
     line-height: 1rem;
     letter-spacing: .03rem;
@@ -1412,7 +1417,7 @@ Featured section style
 }
 .main_about h3{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight:200;
+    font-weight: 500;
     font-size:1.04rem;
     line-height: 1.8rem;
     letter-spacing: .05rem;
@@ -1421,8 +1426,8 @@ Featured section style
 }
 .main_about h4{
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight:200;
-    font-size:1.04rem;
+    font-weight: 500;
+    font-size: 1.04rem;
     line-height: 1.6rem;
     letter-spacing: .05rem;
     color:#3a3e52;
@@ -1442,7 +1447,7 @@ Featured section style
     font-size: 1.2rem;
     line-height: 1.5rem;
     letter-spacing: .105rem;
-    font-weight: 800;
+    font-weight: 600;
     color: #3a3e52; 
     -webkit-font-smoothing: antialiased;
 }
@@ -1715,7 +1720,7 @@ tems Section style
     padding: .5rem 1.5rem;
     margin-bottom: 10px;
     background: transparent;
-    border: 1.6px solid #3a3e52;
+    border: 2.6px solid #3a3e52;
     border-radius: 4px;
     color: #3a3e52;
     font-family: 'Oswald', sans-serif;
@@ -1738,13 +1743,13 @@ tems Section style
 .main-portfolio .button:hover {
     color: #fff;
     background-color: #3a3e52;
-    border: 1.6px solid #3a3e52;
+    border: 2.6px solid #3a3e52;
 }
 
 .main-portfolio .button:active,
 .main-portfolio .button.is-checked {
     background-color: #3a3e52;
-    border: 1.6px solid #3a3e52;
+    border: 2.6px solid #3a3e52;
 }
 
 .main-portfolio .button.is-checked {
