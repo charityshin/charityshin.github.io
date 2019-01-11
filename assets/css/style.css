@@ -477,8 +477,8 @@ Button
   
 }
 .btn-primary{
-    color: #ffffff;
-    background-color: transparent;
+    color: #fd9a9f;
+    background-color: #fff;
     border: 2px solid;
     letter-spacing: 2px;
     border-color: #ffffff;
@@ -487,15 +487,15 @@ Button
 
 }
 .btn-primary:hover{
-    background-color: #fff;
+    background-color: transparent;
     border-color: #fff;
-    color:#fd9a9f;
+    color: #ffffff;
     padding: .7rem 2rem;
 }
 
 .btn-project{
-    color: #ffffff;
-    background-color: #3a3e52;
+    color: #3a3e52;
+    background-color:transparent;
     border: 3px solid;
     letter-spacing: 2px;
     border-color: #3a3e52;
@@ -505,32 +505,31 @@ Button
 
 }
 .btn-project:hover{
-    background-color: transparent;
+    background-color: #3a3e52;
     border-color: #3a3e52;
-    color:#3a3e52;
+    color:#ffffff;
     padding: .5rem 1.5rem;
     margin: 0.5rem 1.7rem 1rem 1rem;
 }
 
 .btn-default{
-    color: #3a3e52;
-    background-color: transparent;
+    color: #fff;
+    background-color: #3a3e52;
     border-color: #3a3e52;
     border: 2px solid;
     padding: .7rem 2.5rem;
     letter-spacing: 3px;
-    font-size:14px;
     
 }
 .btn-default:hover{
-    color: #fff;
-    background-color: #3a3e52;
+    color: #3a3e52;
+    background-color: transparent;
     border-color: #3a3e52;
 }
 
 .btn-portfolio{
-    color: #fff;
-    background-color: transparent;
+    color: #fd9a9f;
+    background-color: #fff;
     border: 2px solid;
     border-color: #fff;
     font-size: 20px;
@@ -538,22 +537,24 @@ Button
     margin: 0.5rem 1rem 1rem 1rem;
 }
 .btn-portfolio:hover{
-    background-color: #fff;
+    background-color: transparent;
     border-color: #fff;
-    color:#fd9a9f;
+    color:#fff;
 }
 
 .btn-footer{
-    color: #fff;
-    background-color: transparent;
+    color: #fd9a9f;
+    background-color:#fff;
     border: 2px solid;
     border-color: #fff;
     padding: .7rem 2.5rem;
+    letter-spacing: .08rem;
+    font-size: .82rem;
 }
 .btn-footer:hover{
-    background-color: #fff;
+    background-color:  transparent;
     border-color: #fff;
-    color:#fd9a9f;
+    color: #fff;
 }
 
 
