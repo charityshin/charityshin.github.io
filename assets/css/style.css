@@ -542,15 +542,15 @@ Button
     color: #fd9a9f;
     background-color:#fff;
     border: 2px solid;
+    letter-spacing: 2px;
     border-color: #fff;
-    padding: .7rem 2.5rem;
-    letter-spacing: .08rem;
-    font-size: .82rem;
+    padding: .7rem 2rem;
 }
 .btn-footer:hover{
     background-color:  transparent;
     border-color: #fff;
     color: #fff;
+    padding: .7rem 2rem;
 }
 
 
