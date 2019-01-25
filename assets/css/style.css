@@ -153,7 +153,7 @@ section { overflow: hidden; }
 .text-basic{color:#5d5d60 !important;;}
 .text-mega{color: #b0b4c7 !important;;}
 .text-white{color:#fff !important;;}
-.text-black{color:#3a3e52 !important;}
+.text-black{color:#2B2E3D !important;}
 .text-pink{
     color:#fed4d6;
 }
@@ -165,14 +165,14 @@ section { overflow: hidden; }
 
 /*bacground color*/
 .lightbg {
-    background-color: #f2f2f2;
+    background-color: #FBF7F8;
 }
 .bg-primary{background-color: #00a885;}
 .bg-finence{background-color:#D36E6E;}
 .bg-mega{
     background-color: transparent;
-    border-top: 2px solid #3a3e52;
-    border-bottom: 2px solid #3a3e52;}
+    border-top: 2px solid #2B2E3D;
+    border-bottom: 2px solid #2B2E3D;}
 .bg-grey{
     background-color: #fff;
     border-radius:20px;
@@ -182,12 +182,12 @@ section { overflow: hidden; }
 .bg-white{
     background-color: #fcfbf7;}
 .bg-basic{
-    background-color: #3a3e52;
+    background-color: #2B2E3D;
     border-radius:10px;
     padding-top:8px;
     margin-bottom: 10px;
     margin-top: 5px;}
-.bg-footer{background-color: #3a3e52;}
+.bg-footer{background-color: #2B2E3D;}
 .bg-ombre{background: rgb(253,212,216);
     background: linear-gradient(0deg, rgba(253,212,216,1) 0%, rgba(255,255,255,1) 100%);}
 .bg-sky{background: rgb(255,255,255);
@@ -334,7 +334,7 @@ h2 span,
 h3 span{
     text-decoration: none;
     border-bottom: 3px solid #fed4d6;
-    color: #3a3e52;
+    color: #2B2E3D;
     },
 h4 span,
 h5 span,
@@ -412,12 +412,12 @@ ol{
     font-size:.8rem;
     line-height: 1.15rem;
     letter-spacing: .03rem;
-    color:#3a3e52;
+    color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
 
 .overlay {
-    background-color: rgba(41, 39, 34, 0.55);
+    background-color: rgba(29, 27, 27, 0.52);
     width: 100%;
     height:100%;
     position: absolute;
@@ -491,10 +491,10 @@ Button
 
 .btn-project{
     color: #ffffff;
-    background-color: #3a3e52;
+    background-color: #2B2E3D;
     border: 3px solid;
     letter-spacing: 2px;
-    border-color: #3a3e52;
+    border-color: #2B2E3D;
     padding: .5rem 1.5rem;
     margin: 0.5rem 1.7rem 1rem 1rem;
 
@@ -502,25 +502,25 @@ Button
 }
 .btn-project:hover{
     background-color: transparent;
-    border-color: #3a3e52;
-    color:#3a3e52;
+    border-color: #2B2E3D;
+    color:#2B2E3D;
     padding: .5rem 1.5rem;
     margin: 0.5rem 1.7rem 1rem 1rem;
 }
 
 .btn-default{
     color: #fff;
-    background-color: #3a3e52;
-    border-color: #3a3e52;
+    background-color: #2B2E3D;
+    border-color: #2B2E3D;
     border: 2px solid;
     padding: .7rem 2.5rem;
     letter-spacing: 3px;
     
 }
 .btn-default:hover{
-    color: #3a3e52;
+    color: #2B2E3D;
     background-color: transparent;
-    border-color: #3a3e52;
+    border-color: #2B2E3D;
 }
 
 .btn-portfolio{
@@ -895,7 +895,7 @@ textarea::-ms-input-placeholder{
     font-weight: 300;
     letter-spacing: 5px;
     font-size:3.5rem;
-    color:#3a3e52;
+    color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
 .head_title h2{
@@ -903,7 +903,7 @@ textarea::-ms-input-placeholder{
     font-size: 1.8rem;
     line-height: 2.5rem;
     font-family: 'Oswald';
-    color: #3a3e52;
+    color: #2B2E3D;
     letter-spacing: 6px;
     border-bottom: 4px solid #fed4d6;
     display: inline-block;
@@ -927,7 +927,7 @@ textarea::-ms-input-placeholder{
     font-size:.7rem;
     line-height: 1rem;
     letter-spacing: .05rem;
-    color:#3a3e52;
+    color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
 
 }
@@ -1129,7 +1129,7 @@ Home Section style
 .home_text h3{
     font-size: 5rem;
     font-family: 'Oswald';
-    font-weight: 600;
+    font-weight: 500;
     line-height: 6rem;
     letter-spacing: .55rem;
     padding-bottom: 1.5rem;
@@ -1141,7 +1141,7 @@ Home Section style
     font-size:.7rem;
     line-height: 1rem;
     letter-spacing: .05rem;
-    color:#3a3e52;
+    color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -1400,7 +1400,7 @@ Featured section style
     font-size:1.08rem;
     line-height: 1rem;
     letter-spacing: .03rem;
-    color:#3a3e52;
+    color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
 .main_about h2{
@@ -1409,7 +1409,7 @@ Featured section style
     line-height: 2.1rem;
     letter-spacing: 1.4px;
     font-weight: 500;
-    color: #3a3e52; 
+    color: #2B2E3D; 
     -webkit-font-smoothing: antialiased;
 }
 .main_about h3{
@@ -1418,7 +1418,7 @@ Featured section style
     font-size:1.04rem;
     line-height: 1.8rem;
     letter-spacing: .05rem;
-    color:#3a3e52;
+    color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
 .main_about h4{
@@ -1427,7 +1427,7 @@ Featured section style
     font-size: 1.04rem;
     line-height: 1.6rem;
     letter-spacing: .05rem;
-    color:#3a3e52;
+    color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
 .main_about h5{
@@ -1436,7 +1436,7 @@ Featured section style
     font-size:1.08rem;
     line-height: 1.5rem;
     letter-spacing: .03rem;
-    color:#3a3e52;
+    color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
 .main_about h6{
@@ -1445,7 +1445,7 @@ Featured section style
     line-height: 1.5rem;
     letter-spacing: .105rem;
     font-weight: 600;
-    color: #3a3e52; 
+    color: #2B2E3D; 
     -webkit-font-smoothing: antialiased;
 }
 .main_about p{
@@ -1487,7 +1487,7 @@ Featured section style
   width: 100%;
   opacity: 0;
   transition: opacity .3s ease-in-out;
-  background-color: #3a3e52;
+  background-color: #2B2E3D;
   -webkit-transition: opacity .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out;
     -o-transition: opacity .3s ease-in-out;
@@ -1717,9 +1717,9 @@ tems Section style
     padding: .5rem 1.5rem;
     margin-bottom: 10px;
     background: transparent;
-    border: 2.6px solid #3a3e52;
+    border: 2.6px solid #2B2E3D;
     border-radius: 4px;
-    color: #3a3e52;
+    color: #2B2E3D;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
     font-size: 12px;
@@ -1739,14 +1739,14 @@ tems Section style
 
 .main-portfolio .button:hover {
     color: #fff;
-    background-color: #3a3e52;
-    border: 2.6px solid #3a3e52;
+    background-color: #2B2E3D;
+    border: 2.6px solid #2B2E3D;
 }
 
 .main-portfolio .button:active,
 .main-portfolio .button.is-checked {
-    background-color: #3a3e52;
-    border: 2.6px solid #3a3e52;
+    background-color: #2B2E3D;
+    border: 2.6px solid #2B2E3D;
 }
 
 .main-portfolio .button.is-checked {
@@ -1938,5 +1938,5 @@ a.anchor {
 
 ::selection {
     color: #fed4d6; 
-    background: #3a3e52;
+    background: #2B2E3D;
 }
