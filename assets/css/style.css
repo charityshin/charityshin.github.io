@@ -885,7 +885,7 @@ textarea::-ms-input-placeholder{
 }
 /*heading title all area*/
 .head_title{
-    padding-left: .2rem;
+    padding-left: .5rem;
     padding-bottom: 1.3rem;
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
