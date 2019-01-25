@@ -27,7 +27,7 @@ Author URI: http://xpeedstudio.com
 html,
 body {
     font-size: 16px;
-    color: #fed4d6;
+    color: #f3bed1;
     width: 100%;
     padding: 0;
     margin-left: 0;
@@ -155,7 +155,7 @@ section { overflow: hidden; }
 .text-white{color:#fff !important;;}
 .text-black{color:#2B2E3D !important;}
 .text-pink{
-    color:#fed4d6;
+    color:#f3bed1;
 }
 .text-gray{color: #969696 !important;}
 
@@ -208,7 +208,7 @@ img {
 a,
 a:hover{
     text-decoration: none;
-    color: #fed4d6;
+    color: #f3bed1;
     },
 a:active,
 a:focus {
@@ -333,7 +333,7 @@ h1 span,
 h2 span,
 h3 span{
     text-decoration: none;
-    border-bottom: 3px solid #fed4d6;
+    border-bottom: 3px solid #f3bed1;
     color: #2B2E3D;
     },
 h4 span,
@@ -454,7 +454,7 @@ Separator
 .separator{
     width:60px;
     height: 1px;
-    background-color: #fed4d6;
+    background-color: #f3bed1;
     margin:5px auto;
 }
 
@@ -905,13 +905,14 @@ textarea::-ms-input-placeholder{
     font-family: 'Oswald';
     color: #2B2E3D;
     letter-spacing: 6px;
-    border-bottom: 4px solid #fed4d6;
+    background-image: linear-gradient(transparent 0%, transparent 50%, #f3bed1 50%);
+    padding-left: .3rem;
     display: inline-block;
     -webkit-font-smoothing: antialiased;
 
 }
 .head_title h2 strong{
-    font-weight: 600;
+    font-weight: 500;
     -webkit-font-smoothing: antialiased;
 }
 .head_title h3{
@@ -944,7 +945,7 @@ textarea::-ms-input-placeholder{
 
 /*Preloader*/
 #loading{
-    background-color: #fed4d6;
+    background-color: #f3bed1;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -1096,13 +1097,13 @@ Nav Menu style
 
 }
 nav.navbar.bootsnav ul.nav li.active > a{
-    color:#fed4d6;
+    color:#f3bed1;
 }
 nav.navbar.bootsnav.no-background.white ul.nav > li > a {
-    color: transparent;
+    color: #CECBCB;
 }
 nav.navbar.bootsnav.no-background.white ul.nav > li.active > a {
-    color: #fed4d6;
+    color: #f3bed1;
 }
 
 /*
@@ -1255,14 +1256,14 @@ PageHome Section style
     font-family: 'Oswald';
     color: #16293b;
     letter-spacing: 8px;
-    border-bottom: 5px solid #fed4d6;
+    border-bottom: 5px solid #f3bed1;
     display: inline-block;
 }
 
 .pagehome_text h3{
     font-size: 4.5rem;
     font-family: 'Oswald';
-    font-weight: 800;
+    font-weight: 500;
     line-height: 5rem;
     letter-spacing: .4rem;
 }
@@ -1451,7 +1452,7 @@ Featured section style
 .main_about p{
     font-size: 12px;
     line-height: 16px;
-    color: #fed4d6;
+    color: #f3bed1;
     width: 100%;
     padding: 0;
     margin-left: 0;
@@ -1500,7 +1501,7 @@ Featured section style
 }
 
 .describe {
-  color: #fed4d6;
+  color: #f3bed1;
   font-size: 17px;
   font-weight: 40px;
   position: absolute;
@@ -1638,7 +1639,7 @@ tems Section style
     font-size:16px;
 }
 .teams_item ul li a:hover i{
-    color:#fed4d6;
+    color:#f3bed1;
 }
 /*team Skill bar*/
 .teamskillbar {
@@ -1661,7 +1662,7 @@ tems Section style
 .teamskillbar-bar {
     height:3px;
     width:0px;
-    background:#fed4d6;
+    background:#f3bed1;
     position: absolute;
     left:0px;
     top:0px;
@@ -1888,7 +1889,7 @@ tems Section style
 /*Footer section*/
 .divider{
     width:100%;
-    background-color: #fed4d6;
+    background-color: #f3bed1;
     background-size: cover;
     position: relative;
     padding-top: 300px;
@@ -1903,7 +1904,7 @@ tems Section style
 
 .main_footer i {
     padding: 0px 5px;
-    color: #fed4d6;
+    color: #f3bed1;
 }
 
 /*Extras*/
@@ -1937,6 +1938,6 @@ a.anchor {
 }
 
 ::selection {
-    color: #fed4d6; 
+    color: #f3bed1; 
     background: #2B2E3D;
 }
