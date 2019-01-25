@@ -34,7 +34,7 @@ body {
     margin-right: 0;
     font-weight: 500;
     width:100%;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 
 /*------------------------------------------------------------------*/
@@ -138,7 +138,7 @@ section { overflow: hidden; }
 }
 
 .roomy-30 {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 25px;
 }
 
@@ -223,7 +223,7 @@ a span {
 a {
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
-    color: #fff;
+    color: #7A7295;
 
 }
 
@@ -296,7 +296,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     color:#1a1a1a;
     margin-bottom: 10px;
     font-weight: 500;
@@ -331,14 +331,13 @@ h6 {
 h1 span,
 h2 span,
 h3 span{
-    text-decoration: none;
-    border-bottom: 3px solid #f3bed1;
-    color: #2B2E3D;
+    text-decoration: underline;
+    color: #7A7295; 
     },
 h4 span,
 h5 span,
 p span{
-    color:#ffffff;
+    color:#7A7295;
 }
 
 p {
@@ -406,11 +405,11 @@ ul.b span {
 }
 
 ol{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight:500;
     font-size:.8rem;
     line-height: 1.15rem;
-    letter-spacing: .03rem;
+    letter-spacing: .01rem;
     color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
@@ -924,7 +923,7 @@ textarea::-ms-input-placeholder{
 
 }
 .head_title h4{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight:500;
     font-size:.7rem;
     line-height: 1rem;
@@ -1122,7 +1121,7 @@ Home Section style
 .home_text h1{
     position: relative;
     font-size: 1rem;
-    font-family: 'Source Sans Pro';
+    font-family: 'Oxygen';
     font-weight:500;
     line-height: 1.4rem;
     letter-spacing: .15rem;
@@ -1138,7 +1137,7 @@ Home Section style
 }
 
 .home_text h4{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 500;
     font-size:.7rem;
     line-height: 1rem;
@@ -1158,10 +1157,10 @@ Home Section style
 .home_text h6{
     position: relative;
     font-size: 1.1rem;
-    font-family: 'Source Sans Pro';
+    font-family: 'Oxygen';
     line-height: 2rem;
-    font-weight: 500;
-    letter-spacing: .32rem;
+    font-weight: 300;
+    letter-spacing: .27rem;
 
 }
 
@@ -1244,10 +1243,10 @@ PageHome Section style
 .pagehome_text h1{
     position: relative;
     font-size: 1.1rem;
-    font-family: 'Source Sans Pro';
+    font-family: 'Oxygen';
     line-height: 1.4rem;
     font-weight: 500;
-    letter-spacing: .2rem;
+    letter-spacing: .27rem;
 
 
 }
@@ -1271,7 +1270,7 @@ PageHome Section style
 
 .pagehome_text h4{
     font-size:12px;
-    font-family: 'Source Sans Pro', serif;
+    font-family: 'Oxygen', serif;
     line-height: 20px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -1397,7 +1396,7 @@ Featured section style
 
 }
 .main_about h1{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 500;
     font-size:1.08rem;
     line-height: 1rem;
@@ -1415,29 +1414,29 @@ Featured section style
     -webkit-font-smoothing: antialiased;
 }
 .main_about h3{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 500;
-    font-size:1.04rem;
+    font-size:1rem;
     line-height: 1.8rem;
     letter-spacing: .05rem;
     color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
 .main_about h4{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 500;
-    font-size: 1.04rem;
+    font-size: 1rem;
     line-height: 1.6rem;
-    letter-spacing: .05rem;
+    letter-spacing: .01rem;
     color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
 .main_about h5{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-weight:250;
-    font-size:1.08rem;
+    font-size:1rem;
     line-height: 1.5rem;
-    letter-spacing: .03rem;
+    letter-spacing: .01rem;
     color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
@@ -1459,7 +1458,7 @@ Featured section style
     margin-left: 0;
     margin-right: 0;
     font-weight: 300;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 .profile{
     padding: 0px 0px 0px 0px;
@@ -1509,7 +1508,7 @@ Featured section style
   width:300px;
   letter-spacing: 2px;
   line-height;
-  font-family: 'Source Sans Pro';
+  font-family: 'Oxygen';
   top: 50%;
   left: 67%;
   transform: translate(-50%, -50%);
