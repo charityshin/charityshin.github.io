@@ -1099,7 +1099,7 @@ nav.navbar.bootsnav ul.nav li.active > a{
     color:#fed4d6;
 }
 nav.navbar.bootsnav.no-background.white ul.nav > li > a {
-    color: #ffffff;
+    color: transparent;
 }
 nav.navbar.bootsnav.no-background.white ul.nav > li.active > a {
     color: #fed4d6;
