@@ -149,7 +149,7 @@ section { overflow: hidden; }
 /*text color, find fddc57*/
 
 .text-muted{}
-.text-primary{color: #292D3A !important;;}
+.text-primary{color: #3B3F54 !important;;}
 .text-basic{color:#5d5d60 !important;;}
 .text-mega{color: #b0b4c7 !important;;}
 .text-white{color:#fff !important;;}
@@ -1097,13 +1097,19 @@ Nav Menu style
 
 }
 nav.navbar.bootsnav ul.nav li.active > a{
-    color:#f3bed1;
+    color:#ED9DBA;
 }
+
 nav.navbar.bootsnav.no-background.white ul.nav > li > a {
-    color: #CECBCB;
+    color: #6f6f6f;
 }
+
+nav.navbar.bootsnav.no-background.white ul.nav > li > a:hover {
+    color: #ED9DBA;
+}
+
 nav.navbar.bootsnav.no-background.white ul.nav > li.active > a {
-    color: #f3bed1;
+    color: #ED9DBA;
 }
 
 /*
@@ -1114,8 +1120,8 @@ Home Section style
     background: url(../images/lake.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 13rem;
-    padding-bottom: 8rem;
+    padding-top: 9.5rem;
+    padding-bottom: 6rem;
     width:100%;
 }
 .home_text h1{
@@ -1336,9 +1342,6 @@ PageHome Section style
     }
 }
 .mouse-scroll {
-    position: absolute;
-    left: 46%;
-    display: inline-block;
     line-height: 18px;
     font-size: 13px;
     font-weight: normal;
@@ -1353,7 +1356,7 @@ PageHome Section style
     display: block;
     width: 46px;
     height: 73px;
-    margin: 0 0px 20px;
+    margin: 0 auto 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -1375,8 +1378,9 @@ PageHome Section style
     animation: scroll-ani 4s linear infinite;
 }
 .mouse-scroll .mouse-message {
-    float: relative;
-    margin: -200px 0 0 0px;
+    position: relative;
+    left: 1.5px;
+    display: block;
     padding: 0;
     -webkit-animation: scroll-ani 4s linear infinite;
     -moz-animation: scroll-ani 4s linear infinite;
@@ -1706,6 +1710,7 @@ tems Section style
 /*========================================================================
                 Portfolio Section Style
 ==========================================================================*/
+
 .portfolio{
     overflow: hidden;
 
@@ -1930,12 +1935,9 @@ hr {
 }
 
 
-a.anchor {
-    display: block;
-    position: relative;
-    top: -100px;
-    visibility: hidden;
-}
+/*.anchor {
+    padding-top: 90px;
+}*/
 
 /*::selection {
     color: #f3bed1; 
