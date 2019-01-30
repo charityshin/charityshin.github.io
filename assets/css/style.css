@@ -1421,17 +1421,17 @@ Featured section style
 .main_about h3{
     font-family: 'Oxygen', sans-serif;
     font-weight: 500;
-    font-size:1rem;
-    line-height: 1.8rem;
-    letter-spacing: .05rem;
+    padding-top: .24em;
+    font-size: .95rem;
+    line-height: 1.45rem;
     color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
 .main_about h4{
     font-family: 'Oxygen', sans-serif;
     font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.6rem;
+    font-size: 1.03rem;
+    line-height: 1.7em;
     letter-spacing: .01rem;
     color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
@@ -1449,7 +1449,6 @@ Featured section style
     font-family: 'Oswald', sans-serif;
     font-size: 1.2rem;
     line-height: 1.5rem;
-    letter-spacing: .105rem;
     font-weight: 600;
     color: #2B2E3D; 
     -webkit-font-smoothing: antialiased;
@@ -1934,7 +1933,18 @@ hr {
    background-color: none;
 }
 
+.cloud-box {
+    position: relative;
+    padding-left: 47px;
+    padding-bottom: 15px;
+}
 
+.cloud-box-icon {
+    position: absolute;
+    left: -12px;
+    color: #2B2E3D;
+    font-size: 20px;
+}
 /*.anchor {
     padding-top: 90px;
 }*/
@@ -1942,4 +1952,9 @@ hr {
 /*::selection {
     color: #f3bed1; 
     background: #2B2E3D;
+}
+.icon,
+.text {
+  vertical-align: middle;
+  display: inline-block;
 }*/
