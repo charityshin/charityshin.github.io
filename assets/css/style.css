@@ -169,7 +169,7 @@ section { overflow: hidden; }
     background-color: #FBF7F8;
 }
 .bg-primary{background-color: #00a885;}
-.bg-finence{background-color:#EEEFF3;}
+.bg-finence{background-color:#f6eaee;}
 .bg-mega{
     background-color: transparent;
     border-top: 1.5px solid #2B2E3D;}
@@ -489,21 +489,24 @@ Button
 }
 
 .btn-project{
-    color: #ffffff;
-    background-color: #2B2E3D;
-    border: 2px solid;
-    letter-spacing: 2px;
-    border-color: #2B2E3D;
-    padding: .5rem 1.5rem;
+    display: inline-block;
+    padding: .6rem 1.5rem;
     margin: 0.5rem 1.7rem 1rem 1rem;
+    margin-bottom: 10px;
+    background: #dfe1e9;
+    border-radius: 4px;
+    border: none;
+    color: #2B2E3D;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .1rem;
+    font-size: 12px;
+    outline:none;
 
 
 }
 .btn-project:hover{
-    background-color: transparent;
-    border-color: #2B2E3D;
-    color:#2B2E3D;
-    padding: .5rem 1.5rem;
+    color: #2B2E3D;
+    background-color: #f3bed1;
     margin: 0.5rem 1.7rem 1rem 1rem;
 }
 
@@ -906,7 +909,7 @@ textarea::-ms-input-placeholder{
     font-family: 'Oswald';
     margin-bottom: 15px;
     color: #2B2E3D;
-    letter-spacing: .18rem;
+    letter-spacing: .12rem;
     background-image: linear-gradient(transparent 0%, transparent 50%, #f3bed1 50%);
     padding-left: .2rem;
     display: inline-block;
@@ -1413,7 +1416,7 @@ Featured section style
 .main_about h2{
     font-family: 'Oswald', sans-serif;
     font-size: 1.3rem;
-    line-height: 2.1rem;
+    line-height: 2.5em;
     letter-spacing: 1.4px;
     font-weight: 500;
     color: #2B2E3D; 
@@ -1449,7 +1452,7 @@ Featured section style
 .main_about h6{
     font-family: 'Oswald', sans-serif;
     font-size: 1.2rem;
-    line-height: 1.5rem;
+    line-height: 2em;
     font-weight: 600;
     color: #2B2E3D; 
     -webkit-font-smoothing: antialiased;
@@ -1600,30 +1603,30 @@ Featured section style
 }
 .service_slid .service_slid_text h5{
     font-size:18px;
-    font-weight: 500;
+    font-weight: 700;
 }
 .choose_mac .slick-arrow,
 .service_slid .slick-arrow{
     position: absolute;
-    top:50%;
+    top:40%;
     z-index: 1;
     border-radius: 50%;
-    background-color: transparent;
-    width:10px;
-    height: 30px;
-    line-height: 20px;
+    border:1px solid #b0b4c7;
+    width:25px;
+    height: 25px;
+    line-height: 25px;
     text-align: center;
-    font-size:2.5rem;
-    font-weight: 1000;
+    font-size:12px;
+    font-weight: 900;
     cursor:pointer;
 }
 .choose_mac .nextprevleft,
 .service_slid .nextprevleft{
-    left: 2.5%;
+    left:5%;
 }
 .choose_mac .nextprevright,
 .service_slid .nextprevright{
-    right: 9.5%;
+    right:5%;
 }
 
 
