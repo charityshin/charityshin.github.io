@@ -66,7 +66,7 @@ section { overflow: hidden; }
     Spacing & Alignment 
 ------------------------------------------*/
 .roomy-grid {
-    margin-top: 100px;
+    margin-top: 85px;
 }
 @media screen and (max-width: 991px) {
     .roomy-grid {
@@ -95,7 +95,7 @@ section { overflow: hidden; }
 }
 @media screen and (max-width: 479px) {
     .roomy-grid {
-         margin-top: 65px;
+         margin-top: 55px;
     }
 }
 @media screen and (max-width: 375px) {
@@ -169,7 +169,7 @@ section { overflow: hidden; }
     background-color: #FBF7F8;
 }
 .bg-primary{background-color: #00a885;}
-.bg-finence{background-color:#D36E6E;}
+.bg-finence{background-color:#EEEFF3;}
 .bg-mega{
     background-color: transparent;
     border-top: 1.5px solid #2B2E3D;}
@@ -189,7 +189,7 @@ section { overflow: hidden; }
     margin-top: 5px;}
 .bg-footer{background-color: #2B2E3D;}
 .bg-ombre{background: rgb(253,212,216);
-    background: linear-gradient(0deg, rgba(253,212,216,1) 0%, rgba(255,255,255,1) 100%);}
+    background: linear-gradient(0deg, rgba(243, 190, 209, 1) 0%, rgba(251, 247, 248, 1) 100%);}
 .bg-sky{background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(186,184,208,1) 32%, rgba(55,47,62,0.8370535714285714) 100%);}
 .bg-pink{background: rgb(255,255,255);
@@ -391,13 +391,14 @@ Section
 }
 
 ul{
-    margin:0;
-    padding:0;
-    list-style:none;
+   /* margin:0;
+    padding:0;*/
+    margin-left: -12px;
+    list-style:circle;
 }
 
 ul.b{
-    list-style-type: square;
+    list-style-type: circle;
 
 }
 
@@ -406,10 +407,9 @@ ul.b span {
 }
 
 ol{
-    font-family: 'Oxygen', sans-serif;
     font-weight:500;
-    font-size:.8rem;
-    line-height: 1.15rem;
+    font-size:.9rem;
+    line-height: 1.9em;
     letter-spacing: .01rem;
     color:#2B2E3D;
     -webkit-font-smoothing: antialiased;
@@ -901,13 +901,14 @@ textarea::-ms-input-placeholder{
 }
 .head_title h2{
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     line-height: 2.5rem;
     font-family: 'Oswald';
+    margin-bottom: 15px;
     color: #2B2E3D;
     letter-spacing: .18rem;
     background-image: linear-gradient(transparent 0%, transparent 50%, #f3bed1 50%);
-    padding-left: .28rem;
+    padding-left: .2rem;
     display: inline-block;
     -webkit-font-smoothing: antialiased;
 
@@ -1179,8 +1180,8 @@ PageHome Section style
     background: url(../images/b2.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 12.5rem;
-    padding-bottom: 9rem;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
     width:100%;
 }
 
@@ -1188,8 +1189,8 @@ PageHome Section style
     background: url(../images/guilteabanner.png) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 12.5rem;
-    padding-bottom: 9rem;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
     width:100%;
 }
 
@@ -1197,8 +1198,8 @@ PageHome Section style
     background: url(../images/spotifybanner.png) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 14.9rem;
-    padding-bottom: 9.2rem;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
     width:100%;
 }
 
@@ -1206,8 +1207,8 @@ PageHome Section style
     background: url(../images/poketimebanner.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 15.5rem;
-    padding-bottom: 9.4rem;
+    padding-top: 11rem;
+    padding-bottom: 11rem;
     width:100%;
 }
 
@@ -1215,8 +1216,8 @@ PageHome Section style
     background: url(../images/lake.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 12.5rem;
-    padding-bottom: 9rem;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
     width:100%;
 }
 
@@ -1224,8 +1225,8 @@ PageHome Section style
     background: url(../images/flight.png) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 12.5rem;
-    padding-bottom: 9rem;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
     width:100%;
 }
 
@@ -1233,8 +1234,8 @@ PageHome Section style
     background: url(../images/hawaii.png) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 14.5rem;
-    padding-bottom: 9rem;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
     width:100%;
 }
 
@@ -1242,8 +1243,8 @@ PageHome Section style
     background: url(../images/lebanner.png) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 15rem;
-    padding-bottom: 13rem;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
     width:100%;
 }
 
