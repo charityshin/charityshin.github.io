@@ -1580,7 +1580,7 @@ pre code {
 }
 .pre-scrollable {
   max-height: 340px;
-  overflow-y: scroll;
+  overflow-y: visible;
 }
 .container {
   margin-right: auto;
@@ -2442,13 +2442,13 @@ table th[class*="col-"] {
 }
 .table-responsive {
   min-height: .01%;
-  overflow-x: auto;
+  overflow-x: visible;
 }
 @media screen and (max-width: 767px) {
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;
-    overflow-y: hidden;
+    overflow-y: visible;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #ddd;
   }
@@ -4192,7 +4192,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
 }
 .navbar-collapse.in {
-  overflow-y: auto;
+  overflow-y: visible;
 }
 @media (min-width: 768px) {
   .navbar-collapse {
@@ -5897,8 +5897,8 @@ button.close {
           transform: translate(0, 0);
 }
 .modal-open .modal {
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow-x: visible;
+  overflow-y: visible;
 }
 .modal-dialog {
   position: relative;
@@ -5966,10 +5966,9 @@ button.close {
 }
 .modal-scrollbar-measure {
   position: absolute;
-  top: -9999px;
   width: 50px;
   height: 50px;
-  overflow: scroll;
+  overflow: visible;
 }
 @media (min-width: 768px) {
   .modal-dialog {
