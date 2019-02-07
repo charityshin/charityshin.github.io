@@ -129,7 +129,7 @@
             if( getNav.hasClass("no-background")){
                 $(window).on("scroll", function(){
                     var scrollTop = $(window).scrollTop();
-                    if(scrollTop >34){
+                    if(scrollTop >0){
                         $(".navbar-fixed").removeClass("no-background");
                     }else {
                         $(".navbar-fixed").addClass("no-background");
@@ -143,7 +143,7 @@
             if( getNav.hasClass("navbar-transparent")){
                 $(window).on("scroll", function(){
                     var scrollTop = $(window).scrollTop();
-                    if(scrollTop >34){
+                    if(scrollTop >0){
                         $(".navbar-fixed").removeClass("navbar-transparent");
                     }else {
                         $(".navbar-fixed").addClass("navbar-transparent");
