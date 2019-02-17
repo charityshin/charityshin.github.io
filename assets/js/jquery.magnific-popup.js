@@ -1713,11 +1713,8 @@ $.magnificPopup.registerModule('gallery', {
 		enabled: false,
 		arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
 		preload: [0,2],
-		navigateByImgClick: true,
-		arrows: true,
-
-		tPrev: 'Previous (Left arrow key)',
-		tNext: 'Next (Right arrow key)',
+		navigateByImgClick: false,
+		arrows: false,
 		tCounter: '%curr% of %total%'
 	},
 
@@ -1760,10 +1757,6 @@ $.magnificPopup.registerModule('gallery', {
 				}
 			});
 
-			_mfpOn(MARKUP_PARSE_EVENT+ns, function(e, element, values, item) {
-				var l = mfp.items.length;
-				values.counter = l > 1 ? _replaceCurrTotal(gSt.tCounter, item.index, l) : '';
-			});
 
 			_mfpOn('BuildControls' + ns, function() {
 				if(mfp.items.length > 1 && gSt.arrows && !mfp.arrowLeft) {
