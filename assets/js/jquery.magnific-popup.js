@@ -1714,7 +1714,7 @@ $.magnificPopup.registerModule('gallery', {
 		arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
 		preload: [0,2],
 		navigateByImgClick: false,
-		arrows: false,
+		arrows: true,
 		tCounter: '%curr% of %total%'
 	},
 
