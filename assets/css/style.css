@@ -228,7 +228,7 @@ img {
     vertical-align: middle;
 }
 a,
-a:hover{
+a:hover, a:focus{
     text-decoration: none;
     color: #e77ca3;
     },
@@ -252,8 +252,8 @@ a {
 
 .btn:focus,
 .btn:active {
-    outline: inherit;
-    background-color: transparent;
+    outline: none;
+    background-color: none;
 }
 *,
 *:before,
@@ -2016,6 +2016,7 @@ hr {
 }
 .navigation-bottom {
     padding-top: 50px;
+    padding-bottom: 25px;
 }
 .pagination a, .pagination a:visited {
     color: #6f6f6f;
@@ -2051,3 +2052,22 @@ hr {
   vertical-align: middle;
   display: inline-block;
 }*/
+
+/*
+@media and screen (max-width:768px)
+	{
+		.invisionprototype-responsive
+		{
+			width: 300px;
+			height: 500px;
+		}
+		
+		.invisionprototype-responsive > iframe
+		{
+			transform: "scale(0.5)";
+			position: relative;
+			top: -200px;
+			left: -20%;
+		}
+    }
+    }*/
