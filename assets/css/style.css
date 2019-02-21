@@ -1233,8 +1233,8 @@ PageHome Section style
     background: url(../images/poketimebanner.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 11rem;
-    padding-bottom: 11rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     width:100%;
 }
 
@@ -1242,26 +1242,26 @@ PageHome Section style
     background: url(../images/lake.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 12rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     width:100%;
 }
 
 .pagehome6{
-    background: url(../images/flight.png) no-repeat top center;
+    background: url(../images/asiana.png) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 12rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     width:100%;
 }
 
 .pagehome7{
-    background: url(../images/hawaii.png) no-repeat top center;
+    background: url(../images/pokiyakibanner.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 12rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     width:100%;
 }
 
@@ -1269,8 +1269,8 @@ PageHome Section style
     background: url(../images/lebanner.png) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 12rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     width:100%;
 }
 
@@ -1931,6 +1931,7 @@ hr {
 
 .cloud-box-icon {
     position: absolute;
+    top:.1rem;
     left: -12px;
     color: #2B2E3D;
     font-size: 20px;
