@@ -417,6 +417,7 @@ ul{
     padding:0;*/
     margin-left: -12px;
     list-style: disc;
+    line-height: 2em;
 }
 
 ul.b{
