@@ -1230,7 +1230,7 @@ PageHome Section style
 }
 
 .pagehome4{
-    background: url(../images/poketimebanner.jpg) no-repeat top center;
+    background: url(../images/pokebowl.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
     padding-top: 6rem;
@@ -1256,14 +1256,6 @@ PageHome Section style
     width:100%;
 }
 
-.pagehome7{
-    background: url(../images/pokiyakibanner.jpg) no-repeat top center;
-    background-size: cover;
-    position: relative;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    width:100%;
-}
 
 .pagehome8{
     background: url(../images/lebanner.png) no-repeat top center;
