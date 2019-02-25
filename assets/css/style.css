@@ -1963,7 +1963,7 @@ hr {
     display: block;
     order: 3;
 }
-.gridview .left, .gridview .middle {
+.gridview .left, .gridview .middle, .gridview .mid1, .gridview .mid2   {
     margin-right: 12px;
 }
 
@@ -1978,6 +1978,28 @@ hr {
 .two-col-container .right {
     display: block;
     order: 2;
+}
+
+.four-col-container {
+    display: flex;
+    justify-content: space-between;
+}
+.four-col-container .left {
+    display: block;
+    order: 1;
+}
+.four-col-container .mid1 {
+    display: block;
+    order: 2;
+}
+}
+.four-col-container .mid2 {
+    display: block;
+    order: 23;
+}
+.four-col-container .right {
+    display: block;
+    order: 4;
 }
 
 
