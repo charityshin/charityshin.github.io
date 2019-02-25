@@ -179,7 +179,7 @@ section { overflow: hidden; }
     border-top: 1.5px solid #2B2E3D;
 }
 .bg-box{
-    background-color: #f6eaee ;
+    background-color: rgb(255, 235, 248) ;
     border-radius: 5px;
     padding-top: 1.8em;
     padding-bottom: 1.8em;
