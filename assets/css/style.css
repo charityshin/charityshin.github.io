@@ -1963,7 +1963,7 @@ hr {
     display: block;
     order: 3;
 }
-.gridview .left, .gridview .middle, .gridview .mid1, .gridview .mid2   {
+.gridview .left, .gridview .middle, .gridview .mid1, .gridview .mid2  {
     margin-right: 12px;
 }
 
@@ -1992,10 +1992,9 @@ hr {
     display: block;
     order: 2;
 }
-}
 .four-col-container .mid2 {
     display: block;
-    order: 23;
+    order: 3;
 }
 .four-col-container .right {
     display: block;
