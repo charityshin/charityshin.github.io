@@ -436,8 +436,16 @@ ol{
     -webkit-font-smoothing: antialiased;
 }
 
+.overlayh {
+    background-color: rgba(29, 27, 27, 0.65);
+    width: 100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top: 0;
+}
 .overlay {
-    background-color: rgba(29, 27, 27, 0.52);
+    background-color: rgba(48, 48, 48, 0.8);
     width: 100%;
     height:100%;
     position: absolute;
@@ -933,13 +941,14 @@ textarea::-ms-input-placeholder{
     margin-top: 10px;
     margin-bottom: 15px;
     color: #2B2E3D;
-    letter-spacing: .12rem;
+    letter-spacing: 1.5px;
     background-image: linear-gradient(transparent 0%, transparent 50%, #f3bed1 50%);
-    padding-left: 3px;
+    padding-left: 2px;
     display: inline-block;
     -webkit-font-smoothing: antialiased;
 
 }
+/*sub-title*/
 .head_title h2 strong{
     font-weight: 500;
     -webkit-font-smoothing: antialiased;
@@ -1149,8 +1158,8 @@ Home Section style
     background: url(../images/lake.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 7.5rem;
-    padding-bottom: 5rem;
+    padding-top: 4.5rem;
+    padding-bottom: 1.5rem;
     width:100%;
 }
 .home_text h1{
@@ -1163,12 +1172,12 @@ Home Section style
 
 }
 .home_text h3{
-    font-size: 5rem;
+    font-size: 3.6rem;
     font-family: 'Oswald';
     font-weight: 500;
-    line-height: 6rem;
-    letter-spacing: .55rem;
-    padding-bottom: 1.5rem;
+    line-height: 5rem;
+    letter-spacing: .25rem;
+    padding-bottom: 1rem;
 } /*CHARITY SHIN*/
 
 .home_text h4{
@@ -1191,11 +1200,11 @@ Home Section style
 
 .home_text h6{
     position: relative;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Oxygen';
     line-height: 2rem;
-    font-weight: 300;
-    letter-spacing: .29rem;
+    font-weight: 600;
+    letter-spacing: .15rem;
 }/*user experience and product designer*/
 
 /*
@@ -1268,11 +1277,11 @@ PageHome Section style
 
 .pagehome_text h1{
     position: relative;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Oxygen';
     line-height: 2rem;
-    font-weight: 800;
-    letter-spacing: .2rem;
+    font-weight: 600;
+    letter-spacing: .15rem;
     padding-bottom: 3rem;
 }
 /*project desc*/
@@ -1288,11 +1297,11 @@ PageHome Section style
 }
 
 .pagehome_text h3{
-    font-size: 4.5rem;
+    font-size: 3.6rem;
     font-family: 'Oswald';
     font-weight: 500;
     line-height: 5rem;
-    letter-spacing: .4rem;
+    letter-spacing: .25rem;
     padding-bottom: 1rem;
 }
 /*project title*/
@@ -1377,13 +1386,13 @@ PageHome Section style
 .mouse-scroll .mouse {
     position: relative;
     display: block;
-    width: 46px;
-    height: 73px;
-    margin: 0 auto 20px;
+    width: 37px;
+    height: 64px;
+    margin: 0 auto 14px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: 3px solid #FFF;
+    border: 2.2px solid #FFF;
     border-radius: 23px;
 }
 .mouse-scroll .mouse .mouse-movement {
@@ -1497,10 +1506,6 @@ Featured section style
     margin-right: 0;
     font-weight: 300;
     font-family: 'Oxygen', sans-serif;
-}
-.profile{
-    padding: 0px 0px 0px 0px;
-    background:url(assets/images/profile.png) no-repeat;
 }
 
 .container2 {
@@ -1806,12 +1811,10 @@ Featured section style
     padding:0.5rem 1rem;
 }
 
-@media screen and (max-width: 650px) {
-    #about-right hr {
-        display: block;
-    }
+@media screen and (max-width: 768px) {
+    
     .main-portfolio .grid-item .grid_hover_area {
-        opacity: 1;
+        opacity: 1 ;
     }
 }
 
