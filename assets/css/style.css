@@ -353,8 +353,9 @@ h6 {
 h1 span,
 h2 span,
 h3 span{
-    text-decoration: underline;
-    color: #7A7295; 
+    background-color: #2B2E3D
+    /*text-decoration: underline;
+    color: #7A7295;*/ 
     },
 h4 span,
 h5 span,
