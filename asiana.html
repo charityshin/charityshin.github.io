@@ -50,7 +50,7 @@
  
      <body data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
  
-  <!-- Preloader 
+  <!-- Preloader -->
          <div id="loading">
              <div id="loading-center">
                  <div id="loading-center-absolute">
@@ -60,7 +60,7 @@
                      <div class="object" id="object_four"></div>
                  </div>
              </div>
-         </div>End off Preloader -->
+         </div><!--End off Preloader -->
  
   <!-- Back to Top -->
  <img onclick="topFunction()" id="backtop" src="assets/images/top.png">
@@ -198,9 +198,9 @@
                                          <h4 class= "col-lg-12 col-md-12 col-xs-6 text-black">
                                              <strong>Skills</strong>
                                              <ul>
-                                             <li>User Interviews</li>
-                                             <li>Competitor Analysis</li>
-                                             <li>Prototyping</li>
+                                             <li>User Observations</li>
+                                             <li>Task Scenario</li>
+                                             <li>Interface Design</li>
                                              <li>A/B Testing</li>
                                              </ul>
                                          </h4>
@@ -229,9 +229,11 @@
                                              <div class="cloudlay">
                                                  <a href="#one" class="cloudlay">
                                                  <span class="describe">
-                                                         <li>Recognize problems</li>
-                                                         <li>Needfindings</li>
+                                                        <li>Select Concept</li>
+                                                        <li>Needfinding</li>
+                                                         <li>User Observations</li>
                                                          <li>User Interviews</li>
+                                                         
  
                                                          
                                                  </span>
@@ -246,9 +248,9 @@
                                              <div class="cloudlay">
                                                  <a href="#two" class ="cloudlay">
                                                  <span class="describe">
-                                                        <li>Competitor analysis</li>
+                                                        <li>Heuristics</li>
+                                                        <li>Competitor Analysis</li>
                                                         <li>Wireframing</li>
-                                                         <li>Heuristics</li>
                                                          <li>UI Design</li>
                                                  </span>
                                              </a>
@@ -275,108 +277,421 @@
                                        
                                      </div></section>
                                       <!-- End off IDEA MAP Section-->
+ 
  <!-- Start 1st phase Section--><section id="service" class="wow fadeInUp about lightbg roomy-60">
-                 <div class="container">
-                     <div class="row">
-                  <div class="col-lg-12 col-md-12 col-xs-12">           
-                                     <a class="anchor" id="one"></a>
-                                     <div class="main_portfolio">
-                                         <div class="head_title">
-                                                     <h2 class="text-uppercase"><strong>OOPS!</strong></h2></div></div>
-                                     <div class="text-black  main_about col-lg-12 col-md-12 col-xs-12">
-                                             <div class="text-uppercase">
-                                         <h2>Page Under Construction <i class="fas fa-hard-hat"></i></h2></div>   
-                                                <h4><strong>This page is being improved, but will be live <i>very</i> soon!</strong></h4>
-                                                <h4><strong>Meanwhile, please feel free to explore the <strong><u><a href ="assets/images/asiana.pdf" target="_blank">case study</u></a></strong> in PDF form.</strong></h4>
-                                    
- 
- 
-                                         <div class="image-box text-center">
-                                             <a href="assets/images/asianaold.png" class="popup-img" style="cursor: zoom-in;"><img src="assets/images/asianaold.png"></a>
-                                             <p class ="text-basic text-center">Old Interface 2017</p>
-                                         
-                                           </div>
+        <div class="container">
+                <div class="row">
+             <div class="col-lg-12 col-md-12 col-xs-12">           
+                                <a class="anchor" id="one"></a>
+                                <div class="main_portfolio">
+                                    <div class="head_title">
+                                                <h2 class="text-uppercase"><strong>1st phase</strong></h2></div></div>
+                                <div class="text-black  main_about col-lg-12 col-md-12 col-xs-12">
+                                        <div class="text-uppercase">
+                                    <h2>Concept & Observations</h2></div>                                        
+                                    <h4 class = "text-black">
+ By selecting the travel search engine box as our redesigning focus, we formed a <strong>task scenario</strong> with the user goal of searching for flight tickets.                                    </h4>
+<!--START task-->
+<div class="bg-box text-black col-lg-12 col-md-12 col-xs-12" style="background-color: #fbf0ff">
+                                 
+                                 
+        <div class = "col-md-12 col-lg-12 col-sm-12 col-xs-12 choose_item_text">
+               <h6><i class="p-l-15 fas fa-plane-departure"></i> TASK SCENARIO</h6>
+               <ol class="p-r-15">
+            <li>Imagine you’re going on a 2-week family trip to Korea in December. Search for their flight tickets in the cheapest way possible.</li>
+            <li>Assume you’ll stop by another country before arriving to Korea.</li>
+            <li>Now imagine that you’ll only need to visit Korea and purchase return tickets another time.</li>
+           </ol>
+       </div>
+   
+</div>
+ <!--END task--> 
 
-                             </div>  <!--end CLIENT INTERVIEW-->    
+ <div class="imglayout">
+<div class="image-box">
+                <a href="assets/images/asianaold.png" class="popup-img" style="cursor: zoom-in;"><img src="assets/images/asianaold.png"></a>
+           
+            </div><!--end gridview-->
+        </div><!--end imglayout-->
+
+
+        <div class ="m-top-50">
+                <h4>
+ Then, we conducted user observations with 3 participants while having them<strong> think-out-loud</strong> and took notes of how they naturally use and interact with the interface. Below are some of the observation notes:
+                </h4>
+                       </div>
+
+<!--start issues-->
+
+<div class ="main_choose">
+    <div class="choose_content">
+            <div class="head_title">
+            <div class="p-l-5 p-r-30 choose_item_text fix bg-box" style="background-color:#fbf0ff">
+                <h4><li>User tries to type in his departure location, but realizes that he isn’t able to type anything in the form field</li></h4>
+                <h4><li><i>“Oh, that’s weird that the form looks like it’s already filled out”</i></li></h4>
+                <h4><li><i>“What does ‘Adult1’ mean?”</i></li></h4>
+                <h4><li>User notes that the interface looks very clunky and outdated</li></h4>
+                <h4><li><i>“It leads me to another page, and I have to start all over again”</i></li></h4>
+                <h4><li>User has to click on several things before the menu they want pops up</li></h4>
+            </div>
+            </div>
+    </div>
+
+                        
+<!--end issues-->
+                                
+                        </div>  <!--end part1-->    
+
+                        <div class="col-lg-12 col-md-12 col-xs-12 main_about">  
+                                <div class="text-black">
+                                        <div class="text-uppercase m-top-60">
+                                                <h2>User Interviews</h2></div>  
+                                    <h4 class = "text-black">
+After observing the users, we asked them follow-up questions to have a better understanding of their background and experience. Some of the questions asked were:</h4>
+</div>
+
+
+<!--start int-->
+
+<div class="text-black bg-box col-lg-12 col-md-12 col-xs-12" style="background-color:#fbf0ff"> 
+        <ol>
+                <div class = "col-md-6 col-lg-6 col-sm-12 col-xs-12">
+        <li>How frequently do you travel by plane?</li>
+        <li>Have you ever used Asiana Airlines to book tickets? If so, when was the last time you’ve used it?</li>
+        <li>Do you use any other travel site other than this one? Which one and why?</li>
+        </div>
+        <div class = "col-md-6 col-lg-6 col-sm-12 col-xs-12">
+        <li>When is the last time you’ve purchased flight tickets?</li>
+        <li>What are some good aspects you’ve seen with the site we tested?</li>
+        <li>What are some improvements or suggestions you would like to recommend?</li>
+        </div>
+        </ol>
+        </div>
+    </div>
+
+                        
+<!--end int-->
+
+
+                    <div class=" m-top-60 main_about">
+                                    <h4>
+  We found out that many were <strong>confused</strong> of the current format and there was a lot of room for improvement due to its <strong>old-fashioned</strong> design. This meant that we needed to analyze other travel sites that the participants were familiar with and incorporate what we&rsquo;ve found useful into our redesign.
+                                    </h4>
+                                    </div>
+
+                                   
+</div></div></div></section>
+
+<!-- Start 2nd phase Section--><section id="service" class="wow fadeInUp about lightbg roomy-40">
+<div class="container">
+    <div class="row">
+ <div class="col-lg-12 col-md-12 col-xs-12">     
+                                <a class="anchor" id="two"></a>
+                        
+                                <div class="main_portfolio">
+                                        <div class="head_title">
+                                                    <h2 class="text-uppercase"><strong>2nd phase</strong></h2></div></div>
+                                <div class="text-black main_about col-lg-12 col-md-12 col-xs-12">
+                                        <div class="text-uppercase">
+                                                <h2>Heuristics</h2></div>                                          
+                                                <h4 class = "text-black">
+        We were able to learn what many users struggled with through user research and proceeded to analyze the heuristics of the the current interface.                                    
+    </h4>
+
+                                                
+<!--HEURISTICS-->
+<div class ="row m-bottom-20"></div>
+                                   
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn">
+    <div class="cloud-box">
+        <div class="cloud-box-icon">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x" style="color:#614974"></i>
+                <i class="fas fa-exclamation fa-stack-1x fa-inverse text-white"></i>
+              </span> 
+        </div>
+        <h6 class="text-uppercase" style="color:#614974">Error Prevention</h6>
+<h4>When user left a form field blank or incorrectly on accident the system only prevents this after it’s been submitted.</h4>    
+      </div>
+  </div>
+
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn">
+    <div class="cloud-box">
+        <div class="cloud-box-icon">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x" style="color:#614974"></i>
+                <i class="fa fa-gamepad fa-stack-1x fa-inverse text-white"></i>
+              </span> 
+        </div>
+        <h6 class="text-uppercase" style="color:#614974">User Control & Freedom</h6>
+      <h4>User isn’t able to perform specific actions they assume might work, such as typing in the departure location or freely exiting out of a dialogue.
+ </h4>                                            
+    </div>
+  </div>
+
  
-                                     <div class="col-md-12 col-lg-12 col-sm-12">
-                                 
-                                     
-                
-                                 
- <div class="pagination navigation-bottom col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                     <a class="prev" href="pokiyaki.html">
-                             <i class="fas fa-angle-left"></i> Previous
-                     </a> 
+
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn">
+            <div class="cloud-box">
+              <div class="cloud-box-icon">
+                  <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x" style="color:#614974"></i>
+                      <i class="fas fa-sync fa-stack-1x fa-inverse text-white"></i>
+                    </span> 
+              </div>
+              <h6 class="text-uppercase" style="color:#614974">Consistency & standards</h6>
+              <h4>User saw that multi-city option redirects him to another page, which wasn’t consistent with one-way and round-trip options.
+ </h4>                                       
+          </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeIn">
+                <div class="cloud-box">
+                  <div class="cloud-box-icon">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x" style="color:#614974"></i>
+                          <i class="fas fa-globe-americas fa-stack-1x fa-inverse text-white"></i>
+                        </span> 
+                  </div>
+                  <h6 class="text-uppercase" style="color:#614974">system & real world match</h6>
+               <h4>User had difficulty understanding why numbers of Adults were displayed as Adult1, Adult2, and so on instead of conventional listing of numbers.
+ </h4>                                         
+              </div>
+              </div>
+<!--HEURISTICS-->
+<div class=" m-top-60 main_about">
+        <h4>
+                Many of our usability problems arose from these heuristic issues, and we aimed to fix by making the design <strong>clear</strong> and <strong>intuitive</strong>.        </h4>
+        </div>
+
+</div>
+
+<div class="col-lg-12 col-md-12 col-xs-12 main_about">  
+                                <div class="text-black">
+                                        <div class="text-uppercase m-top-60">
+                                                <h2>Interface Design</h2>
+                                            </div>                                          
+                                    <h4>
+  By looking at other sites interviewees have mentioned and meta-search sites like <strong>Expedia</strong> and <strong>Priceline</strong>, we found out that there are 2 common ways of approaching this issue: <strong>all-in-one interface</strong> and <strong>step-by-step multi-interface</strong>.                                           
+</h4>
+                                         
+                                             <h4>
+                                                    I worked on wireframing the all-in-one design (1st prototype) while the other designer worked on the step-by-step approach (2nd prototype). Factors like saving and suggesting information and visual representation through brand-consistent icons were considered to make the process more <strong>usable</strong> and <strong>simple</strong>.
+                                                </h4>
+
+           
+           
+
+                    </div></div></div></div></section> <!-- End off 2nd phase Section-->
+                        
+<!-- Start 3rd phase Section--><section id="service" class="wow fadeInUp about lightbg roomy-60">
+    <div class="container">
+        <div class="row">
+     <div class="col-lg-12 col-md-12 col-xs-12">    
+                                <a class="anchor" id="three"></a>
+                                <div class="main_portfolio">
+                                        <div class="head_title">
+                                                    <h2 class="text-uppercase"><strong>3rd phase</strong></h2></div></div>
+                                                    <div class="text-black  main_about">
+                                                            <div class="text-uppercase  col-lg-12 col-md-12 col-xs-12">
+                                                        <h2>Hi-Fi Prototyping</h2></div>
+
+
+                    <div class="text-black">
+                                    <h4 class = "text-black col-md-12 col-lg-12 col-sm-12">
+ We focused on enhancing the efficiency and consistency through <strong>2 different prototypes</strong> and see which design travel users may prefer.
+
+                                    </h4>
+                                </div>
+
+<!--START 2proto and buttons-->
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="imglayout">
+        <div class="image-box text-center">
+        <a href="assets/images/.jpg" class="popup-img" style="cursor: zoom-in;"><img src="assets/images/.png"></a>
+      </div>
+    </div>
+
+<div align="center" class="m-top-20">
+    <a href="https://invis.io/GREY9OJW9" class="btn btn-primary wow pulse"  target="_blank">1ST PROTOTYPE <i class="fas fa-arrow-alt-circle-right"></i></a>
+</div>
+</div>
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="imglayout">
+        <div class="image-box text-center">
+        <a href="assets/images/.jpg" class="popup-img" style="cursor: zoom-in;"><img src="assets/images/.png"></a>
+      </div>
+    </div>
+
+<div align="center" class="m-top-20">
+    <a href="https://projects.invisionapp.com/share/N7EYW91ZP#/screens/269395462_1_First" class="btn btn-primary wow pulse"  target="_blank">2ND PROTOTYPE <i class="fas fa-arrow-alt-circle-right"></i></a>
+</div>
+</div>
+<!--END 2proto and buttons-->
+
+<h4 class = "text-black  col-md-12 col-lg-12 col-sm-12 m-top-40">
+Both prototypes combined one-way, roundtrip, and multi-city options, since users did not like being redirected to a different landing page. In our second prototype, we tried a different and quite<strong> unconventional approach</strong> and thought that users would focus on one part of the search at a time, helping <strong>eliminate the possibility of human errors</strong>.
+                                    </h4>
+                            </div>
+
+                            <div class="imglayout">
+                                <div class="image-box text-center">
+                                        <a href="assets/images/.jpg" class="popup-img" style="cursor: zoom-in;"><img src="assets/images/.jpg" width="450px"></a>
+                                </div>
+                                </div>
+                            
+
+                            
+                            <div class="col-lg-12 col-md-12 col-xs-12 main_about">  
+                                <div class="text-black">
+                                        <div class="text-uppercase m-top-60">
+                                                <h2>A/B Testing</h2></div>   
+                                    </div>
+<h4 class = "text-black">
+        Afterwards, we conducted user testing with the two different prototypes with a similar task scenario, and had the users go through the experience of both.</h4>
+
+<div class ="main_choose">
+                        <div class="choose_content">
+                                <div class="head_title">
+                                <div class="p-l-5 choose_item_text fix col-md-6 col-lg-6 col-sm-12 col-xs-12 bg-box" style="background-color:rgb(238, 209, 216)">
+                                    <h6 class="p-l-15"><i class="far fa-window-maximize"></i>PROTOTYPE 1</h6>
+                                    <h4>Information is well organized</h4>
+                                    <h4>All information is on the same page, leading to easy access/viewing for users</h4>
+                                    <h4>Many options available to accelerate the search process</h4>
+                                    <h4>Multi-city page could improve on visual distinction between different flight segments</h4>
+                                </div>
+                                <div class="p-l-5 choose_item_text fix col-md-6 col-lg-6 col-sm-12 col-xs-12 bg-box" style="background-color:rgb(208, 227, 255)">
+                                    <h6 class="p-l-15"><i class="far fa-window-restore"></i> PROTOTYPE 2</h6>
+                                    <h4>User can easily focus on one information each time</h4>
+                                    <h4>Less likely for user to make mistakes</h4>
+                                    <h4>Unable to review all information while going through the process</h4>
+                                    <h4>Lack of indication of system status (how many inputs are needed)</h4>
+                                </div>
+                            </div>
+
+</div><!--end comparison-->
+
+<div class=" m-top-10 main_about">
+        <h4>
+Although a multi-step design could possibly lower the efficiency of the process since users have to fill in information one step at a time, we thought that the overall efficiency would not be greatly influenced because users still need to input the same information they normally would have in any other circumstance.         </h4>
+        </div>
+</div></div></div></div>
+
+                            </section><!-- End off 3rd phase Section-->
+
+<!-- Start Conclusion Section--><section id="service" class="wow fadeInUp about lightbg roomy-40">
+<div class="container">
+    <div class="row">
+ <div class="col-lg-12 col-md-12 col-xs-12">    
+        <div class="main_portfolio">
+                <div class="head_title">
+                            <h2 class="text-uppercase"><strong>conclusion</strong></h2></div></div>
+                                <div class="text-black  main_about col-lg-12 col-md-12 col-xs-12">
+                                        <div class="text-uppercase">
+                                                <h2>aftermath</h2></div>  
+<h4>
+        Overall, both of the prototype solutions we came up with had their own merits. Though through A/B testing, Prototype 1 was the preferred redesign, Prototype 2 could have been a better option if we had <strong>more time to test and iterate</strong> to make improvements.
+    </h4>
+<h4>Since the project was completed, Asiana Airlines had recently changed its UI. The interesting fact is that they still kept the multi-city option on a separate page, and this probably had to do with preventing human errors or coding difficulties since it is a <strong>complex process that needs accurate</strong>, detailed inputs.
+</h4>
+
+</div>
+
+
+<div class="imglayout">
+<div class="image-box">
+            <a href="assets/images/asiananew.jpg" class="popup-img" style="cursor: zoom-in;"><img src="assets/images/asiananew.jpg"></a>          
  
-                     <a class="next" href="lakesiders.html">Next <i class="fas fa-angle-right"></i>
-                     </a>
-                   </div>
- 
-     </div></div></div>
-             </section><!-- End off Conclusion Section-->
+        </div><!--end gridview-->
+    </div><!--end imglayout-->
+
+                                
+
+                                <div class="main_about col-lg-12 col-md-12 col-xs-12 col-xs-12 text-black">
+                                    <div class="text-uppercase m-top-60">
+                                            <h2>Takeaways</h2></div>                                           
+                                            <h4 class = "text-black">
+                                                    It was challenging to research, design, and test in the span of 3 weeks, but it was rewarding to see the whole process of finding what we can fix, redesign, and improve by interacting with the users. I learned that it&rsquo;s more than essential to <strong>include your users</strong> in the design process to gain insightful feedback, allowing us to improve through users&rsquo; point of view.       
+                                            </h4>
+                                </div>
+                                <div class="col-md-12 col-lg-12 col-sm-12">
+                            
+                                
+           
+                            
+<div class="pagination navigation-bottom col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <a class="prev" href="spotify.html">
+                        <i class="fas fa-angle-left"></i> Previous
+                </a> 
+
+                <a class="next" href="asiana.html">Next <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+
+</div></div></div>
+        </section><!-- End off Conclusion Section-->
+
 
 <!--Footer-->
 <footer>
-    <section id="divider" class="bg-footer fix footer">
-          <div class="col-lg-12 mx-auto text-center">
-            <div class = "home_text">
-            <br>
-            <ul class="list-inline">
-              
-              <li class="list-inline-item">
-                <a href="https://www.behance.net/charityshifcab">
-                  <i class="fa fa-behance fa-fw"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="mailto:charityshin31@gmail.com">
-                  <i class="fa fa-envelope-o fa-fw"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/charityshin">
-                  <i class="fa fa-linkedin fa-fw"></i>
-                </a>
-              </li>
-              
-            </ul>
+<section id="divider" class="bg-footer fix footer">
+      <div class="col-lg-12 mx-auto text-center">
+        <div class = "home_text">
+        <br>
+        <ul class="list-inline">
+          
+          <li class="list-inline-item">
+            <a href="https://www.behance.net/charityshifcab">
+              <i class="fa fa-behance fa-fw"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="mailto:charityshin31@gmail.com">
+              <i class="fa fa-envelope-o fa-fw"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/charityshin">
+              <i class="fa fa-linkedin fa-fw"></i>
+            </a>
+          </li>
+          
+        </ul>
 <br>
-              
-    <div align= "center" class="footer">
-      
+          
+<div align= "center" class="footer">
+  
 
-                 <p><a href="https://www.charitys.me"><i class="fas fa-cloud"></i> Charity Shin </a>© 2019</p>
-        </div>
-        
-        </div>
-      </div></section>
-                    
-    </footer>
+             <p><a href="https://www.charitys.me"><i class="fas fa-cloud"></i> Charity Shin </a>© 2019</p>
+    </div>
+    
+    </div>
+  </div></section>
                 
-        
+</footer>
+            
+    
 
 
-        </div> 
+    </div>
 
-        <!-- JS includes -->
+    <!-- JS includes -->
 
-        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
 
-        <script src="assets/js/jquery.magnific-popup.js"></script>
-        <script src="assets/js/jquery.easing.1.3.js"></script>
-        <script src="assets/js/slick.min.js"></script>
-        <script src="assets/js/js.isotope.js"></script>
-        <script src="assets/js/jquery.collapse.js"></script>
-        <script src="assets/js/bootsnav.js"></script>
-        <script src="assets/js/backtop.js"></script>
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/js.isotope.js"></script>
+    <script src="assets/js/jquery.collapse.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+    <script src="assets/js/backtop.js"></script>
 
-        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
 
 
-    </body>
-    </html>
+</body>
+</html>
