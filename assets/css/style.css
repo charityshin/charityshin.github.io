@@ -53,18 +53,18 @@ body {
     Page Content
 ------------------------------------------*/
 
-.page-content, 
+.page-content,
 section { overflow: hidden; }
 
 /*
-    On Scroll Animations 
+    On Scroll Animations
 ------------------------------------------*/
 
 /*.animated { visibility: hidden; }
 .visible { visibility: visible; }*/
 
 /*
-    Spacing & Alignment 
+    Spacing & Alignment
 ------------------------------------------*/
 .roomy-grid {
     margin-top: 85px;
@@ -185,7 +185,7 @@ section { overflow: hidden; }
     padding-bottom: 1.8em;
     margin-bottom: 1.4em;
     margin-top: 1.4em;
-    
+
 }
 .bg-border{
     color: #46faaf ;
@@ -355,7 +355,7 @@ h2 span,
 h3 span{
     background-color: #2B2E3D
     /*text-decoration: underline;
-    color: #7A7295;*/ 
+    color: #7A7295;*/
     },
 h4 span,
 h5 span,
@@ -503,7 +503,7 @@ Button
     font-weight: 600;
     border:1px solid;
     padding: 1rem 4rem;
-  
+
 }
 .btn-primary{
     color: #2B2E3D;
@@ -549,7 +549,7 @@ Button
     border: 2px solid;
     padding: .7rem 2.5rem;
     letter-spacing: 3px;
-    
+
 }
 .btn-default:hover{
     color: #2B2E3D;
@@ -621,7 +621,7 @@ Extra height css
     margin-right: 15px;
 }
 .m-l-15{
-    margin-left: 15px; 
+    margin-left: 15px;
 }
 .m-top-10 {
     margin-top: 10px;
@@ -907,9 +907,9 @@ textarea::-ms-input-placeholder{
 }*/
 
 
-.transform_scal_rotate:hover img{ 
-    -webkit-transform: scale(1.1) rotate(4deg); 
-    transform: scale(1.1) rotate(4deg); 
+.transform_scal_rotate:hover img{
+    -webkit-transform: scale(1.1) rotate(4deg);
+    transform: scale(1.1) rotate(4deg);
 }
 
 .culmn{
@@ -1007,9 +1007,9 @@ textarea::-ms-input-placeholder{
     width: 50px;
     margin-top: -25px;
     margin-left: -25px;
-    -ms-transform: rotate(45deg); 
+    -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    transform: rotate(45deg); 
+    transform: rotate(45deg);
     -webkit-animation: loading-center-absolute 1.5s infinite;
     animation: loading-center-absolute 1.5s infinite;
 
@@ -1047,7 +1047,7 @@ textarea::-ms-input-placeholder{
 }
 
 @keyframes loading-center-absolute {
-    100% { 
+    100% {
         transform:  rotate(-45deg);
         -webkit-transform:  rotate(-45deg);
     }
@@ -1062,11 +1062,11 @@ textarea::-ms-input-placeholder{
 }
 
 @keyframes object_one {
-    25% { 
+    25% {
         transform: translate(0,-50px) rotate(-180deg);
         -webkit-transform: translate(0,-50px) rotate(-180deg);
-    } 
-    100% { 
+    }
+    100% {
         transform: translate(0,0) rotate(-180deg);
         -webkit-transform: translate(0,0) rotate(-180deg);
     }
@@ -1079,11 +1079,11 @@ textarea::-ms-input-placeholder{
 }
 
 @keyframes object_two {
-    25% { 
+    25% {
         transform: translate(50px,0) rotate(-180deg);
         -webkit-transform: translate(50px,0) rotate(-180deg);
-    } 
-    100% { 
+    }
+    100% {
         transform: translate(0,0) rotate(-180deg);
         -webkit-transform: translate(0,0) rotate(-180deg);
     }
@@ -1095,11 +1095,11 @@ textarea::-ms-input-placeholder{
 }
 
 @keyframes object_three {
-    25% { 
+    25% {
         transform:  translate(-50px,0) rotate(-180deg);
         -webkit-transform:  translate(-50px,0) rotate(-180deg);
-    } 
-    100% { 
+    }
+    100% {
         transform: translate(0,0) rotate(-180deg);
         -webkit-transform: rtranslate(0,0) rotate(-180deg);
     }
@@ -1112,11 +1112,11 @@ textarea::-ms-input-placeholder{
 }
 
 @keyframes object_four {
-    25% { 
-        transform: translate(0,50px) rotate(-180deg); 
-        -webkit-transform: translate(0,50px) rotate(-180deg);  
-    } 
-    100% { 
+    25% {
+        transform: translate(0,50px) rotate(-180deg);
+        -webkit-transform: translate(0,50px) rotate(-180deg);
+    }
+    100% {
         transform: translate(0,0) rotate(-180deg);
         -webkit-transform: translate(0,0) rotate(-180deg);
     }
@@ -1159,8 +1159,8 @@ Home Section style
     background: url(../images/lake.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
-    padding-top: 4.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 15rem;
+    padding-bottom: 20rem;
     width:100%;
 }
 .home_text h1{
@@ -1204,7 +1204,7 @@ Home Section style
     font-size: 1rem;
     font-family: 'Oxygen';
     line-height: 2rem;
-    font-weight: 600;
+    font-weight: 300;
     letter-spacing: .16rem;
 }/*user experience and product designer*/
 /*versatile designer with strong empathy*/
@@ -1321,7 +1321,7 @@ PageHome Section style
 
 
 /*scrolldown
--------------------*/ 
+-------------------*/
 
 @-webkit-keyframes scroll-ani {
     0% {
@@ -1452,7 +1452,7 @@ Featured section style
     line-height: 1.7em;
     letter-spacing: .05rem;
     font-weight: 500;
-    color: #2B2E3D; 
+    color: #2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
 /*sub-title*/
@@ -1495,7 +1495,7 @@ Featured section style
     font-size: 1.2rem;
     line-height: 2em;
     font-weight: 600;
-    color: #2B2E3D; 
+    color: #2B2E3D;
     -webkit-font-smoothing: antialiased;
 }
 /*sub-heading*/
@@ -1642,7 +1642,7 @@ Featured section style
     z-index: 1;
     border-radius: 50%;
     color: rgba(223, 225, 233, 0.8);
-    border: rgba(111, 111, 111, 0.925); 
+    border: rgba(111, 111, 111, 0.925);
     font-weight: 900 ;
     width:25px;
     height: 25px;
@@ -1723,14 +1723,14 @@ Featured section style
     outline:none;
 }
 
-.main-portfolio .btn:focus, 
-.main-portfolio .btn:active:focus, 
-.main-portfolio .btn.active:focus, 
-.main-portfolio .btn.focus, 
-.main-portfolio .btn:active.focus, 
+.main-portfolio .btn:focus,
+.main-portfolio .btn:active:focus,
+.main-portfolio .btn.active:focus,
+.main-portfolio .btn.focus,
+.main-portfolio .btn:active.focus,
 .main-portfolio .btn.active.focus{
-    outline: 0; 
-    outline-offset:0; 
+    outline: 0;
+    outline-offset:0;
 }
 
 .main-portfolio .button:hover {
@@ -1769,7 +1769,7 @@ Featured section style
 /* ---- .grid-item ---- */
 
 .main-portfolio .grid-item {
-    position: relative; 
+    position: relative;
     margin: 1.3rem;
     width: 29.3rem;
     overflow: hidden;
@@ -1816,7 +1816,7 @@ Featured section style
 }
 
 @media screen and (max-width: 768px) {
-    
+
     .main-portfolio .grid-item .grid_hover_area {
         opacity: 1 ;
     }
@@ -1875,7 +1875,7 @@ Featured section style
 }
 .test_item1 .item_img i{
     background-color: #fff;
-    color: #ddd; 
+    color: #ddd;
 }
 
 
@@ -1918,7 +1918,7 @@ hr {
 .link
 {
    color: black;
-   text-decoration: none; 
+   text-decoration: none;
    background-color: none;
 }
 
@@ -2059,13 +2059,13 @@ hr {
     position: fixed;
     background-color: #555;
 }*/
-    
+
 /*.anchor {
     padding-top: 90px;
 }*/
 
 /*::selection {
-    color: #f3bed1; 
+    color: #f3bed1;
     background: #2B2E3D;
 }
 .icon,
@@ -2082,7 +2082,7 @@ hr {
 			width: 300px;
 			height: 500px;
 		}
-		
+
 		.invisionprototype-responsive > iframe
 		{
 			transform: "scale(0.5)";
